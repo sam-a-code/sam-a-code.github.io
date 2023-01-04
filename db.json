@@ -97,6 +97,36 @@
         "commentary": "Used at Studio and YouTube"
       }
     ],
+
+    "education": [
+      {
+        "id": 1,
+        "school": "Boston University",
+        "degree": "Masters of Science",
+        "program": "Media Ventures",
+        "description": "Entrepreneurship, technology, and communications",
+        "startDate": "September 2014",
+        "endDate": "August 2015"
+      },
+      {
+        "id": 2,
+        "school": "Boston University",
+        "degree": "Bachelor of Arts",
+        "program": "Psychology",
+        "description": "Psychology basics and description to be added",
+        "startDate": "September 2009",
+        "endDate": "January 2014"
+      },
+      {
+        "id": 3,
+        "school": "Flatiron Software Engineering Bootcamp",
+        "degree": "Certification in Software Engineering",
+        "program": "Full Stack Software Engineering",
+        "description": "Add skills I learned and links to projects",
+        "startDate": "August 2022",
+        "endDate": "December 2022"
+      }
+    ],
     "technical-projects": [
       {
         "id": 1,
