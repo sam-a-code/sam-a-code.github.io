@@ -1,0 +1,161 @@
+{
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Operations Associate",
+        "company": "Studio",
+        "url": "https://studio.com/",
+        "start-date": "January 2022",
+        "end-date": "August 2022",
+        "description": ["Program managed the lifecycle of new class content and curriculum, implementing new classes on the consumer-facing Studio website using VS Code and ensuring cross-functional teams were aligned on deliverables throughout the process.", "Executed class launches, company rebranding, and new product initiatives with multiple engineering teams, the curriculum team, the marketing team, and the post-production team.", "Managed a freelance Quality Assurance associate. Conducted the hiring process, created software walkthrough documentation, used technical judgment for bug triage, and escalated issues to Engineering as needed."]
+      },
+      {
+        "id": 2,
+        "title": "Operations Specialist",
+        "company": "YouTube",
+        "url": "https://youtube.com/",
+        "start-date": "April 2019",
+        "end-date": "July 2021",
+        "description": ["Program managed the e-learning tool used across YouTube Spaces globally, maintaining content and user processes.", "Managed a global group of 20+ subject matter experts to identify work problems and goals for Google’s event, e-learning, and finance tools.", "Led bi-weekly bug review and quarterly prioritization of feature requests and bugs, working with engineers to resolve tickets and improve user experiences for users at all YouTube Spaces. Conducted UAT for engineers as necessary.", "Developed documentation for user roadmaps, tools training, FAQs, SOPs, onboarding, and institutional knowledge."]
+      },
+      {
+        "id": 3,
+        "title": "Events Specialist (Data Analyst)",
+        "company": "YouTube",
+        "url": "https://youtube.com/",
+        "start-date": "May 2016",
+        "end-date": "April 2019",
+        "description": ["Executed multiple processes and workflows for approx. 10 - 15 events per month at YouTube Space LA.", "Trained team on internal tools and processes, product updates, and security procedures to protect attendee data.", "Analyzed data, maintained data integrity, led data clean-up initiatives, and leveraged analytic insights to improve events."]
+      },
+      {
+        "id": 4,
+        "title": "Volunteer Program Manager",
+        "company": "The Heart Series",
+        "url": "https://theheartseries.com/",
+        "start-date": "February 2015",
+        "end-date": "February 2020",
+        "description": ["Orchestrated the volunteer program for this social impact conference, spearheaded communications, training sessions, and placements for 30+ volunteers.", "Supervised multiple workflows and check-in stations for 200+ attendees, speakers, and press.", "Project managed on-site operations of volunteers and vendors."]
+      }
+    ],
+
+    "skills": [
+      {
+        "id": 1,
+        "name": "Program Management",
+        "years-of-experience": 6,
+        "level-of-skill": "Experienced",
+        "commentary": "Used at Studio and YouTube"
+      },
+      {
+        "id": 2,
+        "name": "Operations",
+        "years-of-experience": 6,
+        "level-of-skill": "Experienced",
+        "commentary": "Used at Studio and YouTube"
+      },
+      {
+        "id": 3,
+        "name": "CSS",
+        "years-of-experience": 1,
+        "level-of-skill": "Intro",
+        "commentary": "Learned at software engineering bootcamp"
+      },
+      {
+        "id": 4,
+        "name": "JavaScript",
+        "years-of-experience": 1,
+        "level-of-skill": "Intro",
+        "commentary": "Learned at software engineering bootcamp"
+      },
+      {
+        "id": 5,
+        "name": "Ruby on Rails",
+        "years-of-experience": 1,
+        "level-of-skill": "Intro",
+        "commentary": "Learned at software engineering bootcamp"
+      },
+      {
+        "id": 6,
+        "name": "React",
+        "years-of-experience": 1,
+        "level-of-skill": "Intro",
+        "commentary": "Learned at software engineering bootcamp"
+      },
+      {
+        "id": 7,
+        "name": "Training + Documentation",
+        "years-of-experience": 3,
+        "level-of-skill": "Medium",
+        "commentary": "Used at Studio and YouTube"
+      }
+    ],
+    "technical-projects": [
+      {
+        "id": 1,
+        "title": "WeAte.",
+        "one-liner": "A dinner party planner built with React + styled with CSS.",
+        "url": "https://we-ate.onrender.com/",
+        "demo-url": "https://www.loom.com/share/33c3cf49e8eb448da5f20883f8468d70",
+        "github-url": "https://github.com/sam-a-code/dinner-party-planner-final",
+        "created-date": "December 2022",
+        "skills": ["Ruby on Rails", "React", "CSS", "Email.js", "Authentication", "Authorization", "API", "SQLite", "ActiveRecord", "Google Fonts"],
+        "description": ["Implemented authentication and authorization to allow users to create individual accounts and access information.", "Wrote API functionality with Ruby on Rails, built the database schema, and used ActiveRecord + SQLite for DB logic.", "Incorporated Email.js to allow users to send themselves guest and ingredient lists for party planning."],
+        "commentary": ["Combine event background", "Proud of styling"]
+      },
+      {
+        "id": 2,
+        "title": "Groovehound",
+        "one-liner": "An app to track previous concert attendance and find upcoming concerts.",
+        "demo-url": "https://www.loom.com/share/b3036ee331a343f086f02f50b42d3347",
+        "github-url": "https://github.com/sam-a-code/concert-tracker",
+        "created-date": "November 2022",
+        "skills": ["Ruby on Rails", "React", "CSS", "Authentication", "Authorization", "API", "MVC framework", "ActiveRecord", "Matine", "Google Fonts"],
+        "description": ["Implemented backend API with Ruby on Rails, using ActiveRecord and MVC framework to set up relationships.", "Created login functionality with authentication and authorization", "Used a combination of Mantine framework and CSS for UI, creating an eye-catching profile page and band cards."],
+        "commentary": ["Concert tracking", "First time using auth and auth"]
+      },
+      {
+        "id": 3,
+        "title": "Tutoring Scheduler",
+        "one-liner": "Created an app for students to schedule time with tutors using React and Ruby.",
+        "demo-url": "https://www.loom.com/share/6355b4193828459caa35f03535096ef4",
+        "github-url": "https://github.com/sam-a-code/phase-3-tutor-appointments-frontend",
+        "github-url-2": "https://github.com/sam-a-code/phase-3-tutor-appointments-backend",
+        "created-date": "November 2022",
+        "skills": ["Ruby", "React", "CSS", "API", "ActiveRecord", "Google Fonts"],
+        "description": ["Implemented CRUD functionality on appointment scheduling and creation.", "Added styling to support a strong visual identity – used CSS and an imported font to make app look like a handwritten notebook page.", "Mapped through backend seed data, generating cards for every instance of appointments, students, and instructors."],
+        "commentary": ["Thoughtful tool for users", "Help people education"]
+      },
+      {
+        "id": 4,
+        "title": "Book Deserts",
+        "one-liner": "A resource for sharing information about book deserts and organizations that are working to change them.",
+        "github-url": "https://github.com/sam-a-code/book-desert-project-II",
+        "created-date": "October 2022",
+        "skills": ["Ruby", "React", "CSS", "Google Fonts"],
+        "description": ["Used React, CSS for styling, and implemented NavLink, ensuring site was compelling and easy to navigate.", "Created a RESTful API for the backend, organizing book and resource information so it was easily accessible."],
+        "commentary": ["Passion project", "Use coding to share resources and ideas"]
+      },
+      {
+        "id": 5,
+        "title": "Farmers Market Recipe Finder",
+        "one-liner": "A resource for finding recipes inspired by seasonal items from the farmers market.",
+        "github-url": "https://github.com/sam-a-code/farmers-market-recipe-finder",
+        "created-date": "October 2022",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "description": ["Used onClick", "CSS for styling"],
+        "commentary": ["I love farmers markets and cooking", "Eager to upgrade with better seasonal logic"]
+      }
+    ],
+    "art-projects": [
+        {
+            "id": 5,
+            "title": "Farmers Market Recipe Finder",
+            "one-liner": "A resource for finding recipes inspired by seasonal items from the farmers market.",
+            "github-url": "https://github.com/sam-a-code/farmers-market-recipe-finder",
+            "created-date": "October 2022",
+            "skills": ["HTML", "CSS", "JavaScript"],
+            "description": ["Used onClick", "CSS for styling"],
+            "commentary": ["I love farmers markets and cooking", "Eager to upgrade with better seasonal logic"]
+        }
+    ]
+  }
