@@ -147,15 +147,83 @@
       }
     ],
     "art-projects": [
-        {
-            "id": 5,
-            "title": "Farmers Market Recipe Finder",
-            "one-liner": "A resource for finding recipes inspired by seasonal items from the farmers market.",
-            "github-url": "https://github.com/sam-a-code/farmers-market-recipe-finder",
-            "created-date": "October 2022",
-            "skills": ["HTML", "CSS", "JavaScript"],
-            "description": ["Used onClick", "CSS for styling"],
-            "commentary": ["I love farmers markets and cooking", "Eager to upgrade with better seasonal logic"]
-        }
+      {
+        "id": 1,
+        "pattern-name": "Saguaro",
+        "pattern-description": "Neon with black background",
+        "image-url": "",
+        "items": [
+          {
+            "id": 1,
+            "item-name": "Duffle bag",
+            "item-description": "Great bag for travel",
+            "image-urls": [""]
+          },
+          {
+            "id": 2,
+            "item-name": "Leggings",
+            "item-description": "Comfy and vibrant",
+            "image-urls": [""]
+          },
+          {
+            "id": 3,
+            "item-name": "Sports bra",
+            "item-description": "Exercise and style",
+            "image-urls": [""]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "pattern-name": "Zinnia",
+        "pattern-description": "One of my new favorites",
+        "image-url": "",
+        "items": [
+          {
+            "id": 1,
+            "item-name": "Sweatshirt",
+            "item-description": "Comfy and cute",
+            "image-urls": [""]
+          },
+          {
+            "id": 2,
+            "item-name": "Recycled t-shirt",
+            "item-description": "Unisex box print",
+            "image-urls": [""]
+          },
+          {
+            "id": 3,
+            "item-name": "T-shirt dress",
+            "item-description": "Baggy and vibrant",
+            "image-urls": [""]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "pattern-name": "Orchid",
+        "pattern-description": "Orange and pink funk",
+        "image-url": "",
+        "items": [
+          {
+            "id": 1,
+            "item-name": "Hoodie",
+            "item-description": "Vibrant and cute",
+            "image-urls": [""]
+          },
+          {
+            "id": 2,
+            "item-name": "Recycled t-shirt",
+            "item-description": "Unisex box print",
+            "image-urls": [""]
+          },
+          {
+            "id": 3,
+            "item-name": "T-shirt dress",
+            "item-description": "Baggy and vibrant",
+            "image-urls": [""]
+          }
+        ]
+      }
     ]
   }
