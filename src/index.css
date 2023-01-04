@@ -13,3 +13,6 @@ code {
     monospace;
 }
 
+img {
+  max-width: 30%;
+}
