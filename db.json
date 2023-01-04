@@ -4,36 +4,44 @@
         "id": 1,
         "title": "Operations Associate",
         "company": "Studio",
+        "location": "Remote",
+        "image": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/278427822_742607313773365_2889828367735935710_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=lLfqGHZiFiAAX9NAd8O&tn=KzyhIdU6dq3AU5cT&_nc_ht=scontent-ord5-2.xx&oh=00_AfDPW6Tx1jgLCSavEDOD0bokSqOwynpOUb20CSEswlkzxA&oe=63BA8070",
         "url": "https://studio.com/",
-        "start-date": "January 2022",
-        "end-date": "August 2022",
+        "startDate": "January 2022",
+        "endDate": "August 2022",
         "description": ["Program managed the lifecycle of new class content and curriculum, implementing new classes on the consumer-facing Studio website using VS Code and ensuring cross-functional teams were aligned on deliverables throughout the process.", "Executed class launches, company rebranding, and new product initiatives with multiple engineering teams, the curriculum team, the marketing team, and the post-production team.", "Managed a freelance Quality Assurance associate. Conducted the hiring process, created software walkthrough documentation, used technical judgment for bug triage, and escalated issues to Engineering as needed."]
       },
       {
         "id": 2,
         "title": "Operations Specialist",
         "company": "YouTube",
+        "location": "Los Angeles",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png",
         "url": "https://youtube.com/",
-        "start-date": "April 2019",
-        "end-date": "July 2021",
+        "startDate": "April 2019",
+        "endDate": "July 2021",
         "description": ["Program managed the e-learning tool used across YouTube Spaces globally, maintaining content and user processes.", "Managed a global group of 20+ subject matter experts to identify work problems and goals for Google’s event, e-learning, and finance tools.", "Led bi-weekly bug review and quarterly prioritization of feature requests and bugs, working with engineers to resolve tickets and improve user experiences for users at all YouTube Spaces. Conducted UAT for engineers as necessary.", "Developed documentation for user roadmaps, tools training, FAQs, SOPs, onboarding, and institutional knowledge."]
       },
       {
         "id": 3,
         "title": "Events Specialist (Data Analyst)",
         "company": "YouTube",
+        "location": "Los Angeles",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png",
         "url": "https://youtube.com/",
-        "start-date": "May 2016",
-        "end-date": "April 2019",
+        "startDate": "May 2016",
+        "endDate": "April 2019",
         "description": ["Executed multiple processes and workflows for approx. 10 - 15 events per month at YouTube Space LA.", "Trained team on internal tools and processes, product updates, and security procedures to protect attendee data.", "Analyzed data, maintained data integrity, led data clean-up initiatives, and leveraged analytic insights to improve events."]
       },
       {
         "id": 4,
         "title": "Volunteer Program Manager",
         "company": "The Heart Series",
+        "location": "Los Angeles",
+        "image": "",
         "url": "https://theheartseries.com/",
-        "start-date": "February 2015",
-        "end-date": "February 2020",
+        "startDate": "February 2015",
+        "endDate": "February 2020",
         "description": ["Orchestrated the volunteer program for this social impact conference, spearheaded communications, training sessions, and placements for 30+ volunteers.", "Supervised multiple workflows and check-in stations for 200+ attendees, speakers, and press.", "Project managed on-site operations of volunteers and vendors."]
       }
     ],
@@ -87,6 +95,36 @@
         "years-of-experience": 3,
         "level-of-skill": "Medium",
         "commentary": "Used at Studio and YouTube"
+      }
+    ],
+
+    "education": [
+      {
+        "id": 1,
+        "school": "Boston University",
+        "degree": "Masters of Science",
+        "program": "Media Ventures",
+        "description": "Entrepreneurship, technology, and communications",
+        "startDate": "September 2014",
+        "endDate": "August 2015"
+      },
+      {
+        "id": 2,
+        "school": "Boston University",
+        "degree": "Bachelor of Arts",
+        "program": "Psychology",
+        "description": "Psychology basics and description to be added",
+        "startDate": "September 2009",
+        "endDate": "January 2014"
+      },
+      {
+        "id": 3,
+        "school": "Flatiron Software Engineering Bootcamp",
+        "degree": "Certification in Software Engineering",
+        "program": "Full Stack Software Engineering",
+        "description": "Add skills I learned and links to projects",
+        "startDate": "August 2022",
+        "endDate": "December 2022"
       }
     ],
     "technical-projects": [
