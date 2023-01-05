@@ -27,13 +27,12 @@ function JobCardContainer() {
         ) })
 
     return (
-        <>
-            <h1>JobCardContainer</h1>
-            <h2>People and organizations who are making a difference:</h2>
-            <ul>
+        <div className="job-section">
+            <h1 className="section-header">Work History</h1>
+            <ul className="card-parent">
             {jobsList}
             </ul>
-        </>
+        </div>
     );
   }
 

@@ -5,7 +5,6 @@ import EducationCardContainer from './EducationCardContainer';
 function Home() {
     return (
         <>
-            <h1>Home</h1>
             <Bio />
             <JobCardContainer />
             <EducationCardContainer />

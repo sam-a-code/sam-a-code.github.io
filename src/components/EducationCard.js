@@ -1,12 +1,11 @@
 function EducationCard({school, degree, program, description, startDate, endDate}) {
     return (
-        <>
+        <div className="card-child">
             <h3>{school}</h3>
-            <h3>{degree}</h3>
-            <h3>{program}</h3>
+            <h4>{degree}, {program}</h4>
             <h5>{startDate} - {endDate}</h5>
-            <h5>{description}</h5>
-        </>
+            <p>{description}</p>
+        </div>
     );
   }
 

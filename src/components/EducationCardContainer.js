@@ -15,7 +15,7 @@ function EducationCardContainer() {
         return (
             <EducationCard
             key={school.id}
-            school={school.title}
+            school={school.school}
             degree={school.degree}
             program={school.program}
             description={school.description}
@@ -25,12 +25,12 @@ function EducationCardContainer() {
         ) })
 
     return (
-        <>
-            <h1>EducationCardContainer</h1>
-            <ul>
+        <div className="education-section">
+            <h1 className="section-header">Education</h1>
+            <ul className="card-parent">
             {educationList}
             </ul>
-        </>
+        </div>
     );
   }
 

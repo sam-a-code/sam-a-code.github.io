@@ -1,11 +1,18 @@
 body {
-  margin: 0;
+  margin: .5rem 1rem .5rem 1rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  /* background-image: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80'); */
+  /* background-image: url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80'); */
+  /* background-image: url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'); */
+  /* background-image: url('https://images.unsplash.com/photo-1524230572899-a752b3835840?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80'); */
+  /* background-image: url('https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'); */
+  background-size: cover;
+  background-position: center;
 }
 
 code {
@@ -15,4 +22,60 @@ code {
 
 img {
   max-width: 30%;
+}
+
+.section-header {
+  text-decoration: underline;
+  margin-top: 1.5rem;
+}
+
+.card-parent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-child {
+  max-width: 30%;
+  /* margin-left: .5rem;
+  margin-right: .5rem; */
+}
+
+
+.navbar {
+  padding: .5rem 1rem;
+  color: black;
+  text-decoration: none;
+  transition: 1s;
+  text-transform: uppercase;
+}
+
+.navbar:hover {
+  font-size: 1.5rem;
+}
+
+.footer {
+  text-decoration: none;
+  color: black;
+}
+
+.job-section {
+  transition: 1s
+}
+
+.job-section:hover {
+  background-color: white;
+}
+
+.education-section {
+  transition: 1s
+}
+
+.education-section:hover {
+  background-color: white;
+}
+
+.bio {
+  margin-left: 10%;
+  margin-right: 10%;
 }
