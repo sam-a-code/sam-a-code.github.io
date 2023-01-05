@@ -131,11 +131,11 @@
       {
         "id": 1,
         "title": "WeAte.",
-        "one-liner": "A dinner party planner built with React + styled with CSS.",
+        "oneLiner": "A dinner party planner built with React + styled with CSS.",
         "url": "https://we-ate.onrender.com/",
-        "demo-url": "https://www.loom.com/share/33c3cf49e8eb448da5f20883f8468d70",
-        "github-url": "https://github.com/sam-a-code/dinner-party-planner-final",
-        "created-date": "December 2022",
+        "demoUrl": "https://www.loom.com/share/33c3cf49e8eb448da5f20883f8468d70",
+        "githubUrl": "https://github.com/sam-a-code/dinner-party-planner-final",
+        "createdDate": "December 2022",
         "skills": ["Ruby on Rails", "React", "CSS", "Email.js", "Authentication", "Authorization", "API", "SQLite", "ActiveRecord", "Google Fonts"],
         "description": ["Implemented authentication and authorization to allow users to create individual accounts and access information.", "Wrote API functionality with Ruby on Rails, built the database schema, and used ActiveRecord + SQLite for DB logic.", "Incorporated Email.js to allow users to send themselves guest and ingredient lists for party planning."],
         "commentary": ["Combine event background", "Proud of styling"]
@@ -143,10 +143,10 @@
       {
         "id": 2,
         "title": "Groovehound",
-        "one-liner": "An app to track previous concert attendance and find upcoming concerts.",
-        "demo-url": "https://www.loom.com/share/b3036ee331a343f086f02f50b42d3347",
-        "github-url": "https://github.com/sam-a-code/concert-tracker",
-        "created-date": "November 2022",
+        "oneLiner": "An app to track previous concert attendance and find upcoming concerts.",
+        "demoUrl": "https://www.loom.com/share/b3036ee331a343f086f02f50b42d3347",
+        "githubUrl": "https://github.com/sam-a-code/concert-tracker",
+        "createdDate": "November 2022",
         "skills": ["Ruby on Rails", "React", "CSS", "Authentication", "Authorization", "API", "MVC framework", "ActiveRecord", "Matine", "Google Fonts"],
         "description": ["Implemented backend API with Ruby on Rails, using ActiveRecord and MVC framework to set up relationships.", "Created login functionality with authentication and authorization", "Used a combination of Mantine framework and CSS for UI, creating an eye-catching profile page and band cards."],
         "commentary": ["Concert tracking", "First time using auth and auth"]
@@ -154,11 +154,11 @@
       {
         "id": 3,
         "title": "Tutoring Scheduler",
-        "one-liner": "Created an app for students to schedule time with tutors using React and Ruby.",
-        "demo-url": "https://www.loom.com/share/6355b4193828459caa35f03535096ef4",
-        "github-url": "https://github.com/sam-a-code/phase-3-tutor-appointments-frontend",
-        "github-url-2": "https://github.com/sam-a-code/phase-3-tutor-appointments-backend",
-        "created-date": "November 2022",
+        "oneLiner": "Created an app for students to schedule time with tutors using React and Ruby.",
+        "demoUrl": "https://www.loom.com/share/6355b4193828459caa35f03535096ef4",
+        "githubUrl": "https://github.com/sam-a-code/phase-3-tutor-appointments-frontend",
+        "githubUrl2": "https://github.com/sam-a-code/phase-3-tutor-appointments-backend",
+        "createdDate": "November 2022",
         "skills": ["Ruby", "React", "CSS", "API", "ActiveRecord", "Google Fonts"],
         "description": ["Implemented CRUD functionality on appointment scheduling and creation.", "Added styling to support a strong visual identity – used CSS and an imported font to make app look like a handwritten notebook page.", "Mapped through backend seed data, generating cards for every instance of appointments, students, and instructors."],
         "commentary": ["Thoughtful tool for users", "Help people education"]
@@ -166,9 +166,9 @@
       {
         "id": 4,
         "title": "Book Deserts",
-        "one-liner": "A resource for sharing information about book deserts and organizations that are working to change them.",
-        "github-url": "https://github.com/sam-a-code/book-desert-project-II",
-        "created-date": "October 2022",
+        "oneLiner": "A resource for sharing information about book deserts and organizations that are working to change them.",
+        "githubUrl": "https://github.com/sam-a-code/book-desert-project-II",
+        "createdDate": "October 2022",
         "skills": ["Ruby", "React", "CSS", "Google Fonts"],
         "description": ["Used React, CSS for styling, and implemented NavLink, ensuring site was compelling and easy to navigate.", "Created a RESTful API for the backend, organizing book and resource information so it was easily accessible."],
         "commentary": ["Passion project", "Use coding to share resources and ideas"]
@@ -176,9 +176,9 @@
       {
         "id": 5,
         "title": "Farmers Market Recipe Finder",
-        "one-liner": "A resource for finding recipes inspired by seasonal items from the farmers market.",
-        "github-url": "https://github.com/sam-a-code/farmers-market-recipe-finder",
-        "created-date": "October 2022",
+        "oneLiner": "A resource for finding recipes inspired by seasonal items from the farmers market.",
+        "githubUrl": "https://github.com/sam-a-code/farmers-market-recipe-finder",
+        "createdDate": "October 2022",
         "skills": ["HTML", "CSS", "JavaScript"],
         "description": ["Used onClick", "CSS for styling"],
         "commentary": ["I love farmers markets and cooking", "Eager to upgrade with better seasonal logic"]

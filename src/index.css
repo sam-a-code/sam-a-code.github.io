@@ -1,5 +1,6 @@
 body {
-  margin: .5rem 1rem .5rem 1rem;
+  /* margin: .5rem 1rem .5rem 1rem; */
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -54,9 +55,31 @@ img {
   font-size: 1.5rem;
 }
 
+.navbar-parent {
+  margin-top: 1rem;
+}
+
+.title-1 {
+  margin-left: 20%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.title-2 {
+  margin-left: 40%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.title-3 {
+  margin-left: 65%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
 .footer {
   text-decoration: none;
   color: black;
+  background-color: blueviolet;
+  padding: 2rem;
 }
 
 .job-section {
