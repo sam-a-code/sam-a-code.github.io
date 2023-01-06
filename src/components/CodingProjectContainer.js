@@ -25,6 +25,7 @@ function CodingProjectContainer() {
             skills={project.skills}
             description={project.description}
             commentary={project.commentary}
+            image={project.image}
             />
         ) })
 

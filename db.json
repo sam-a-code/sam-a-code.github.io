@@ -138,7 +138,8 @@
         "createdDate": "December 2022",
         "skills": ["Ruby on Rails", "React", "CSS", "Email.js", "Authentication", "Authorization", "API", "SQLite", "ActiveRecord", "Google Fonts"],
         "description": ["Implemented authentication and authorization to allow users to create individual accounts and access information.", "Wrote API functionality with Ruby on Rails, built the database schema, and used ActiveRecord + SQLite for DB logic.", "Incorporated Email.js to allow users to send themselves guest and ingredient lists for party planning."],
-        "commentary": ["Combine event background", "Proud of styling"]
+        "commentary": ["Combine event background", "Proud of styling", "Lessons learned:"],
+        "image": "https://drive.google.com/file/d/1P6MHfwsV7064LR7Uu75Fgcw4wWVrWLWf/view?usp=share_link"
       },
       {
         "id": 2,
@@ -147,9 +148,10 @@
         "demoUrl": "https://www.loom.com/share/b3036ee331a343f086f02f50b42d3347",
         "githubUrl": "https://github.com/sam-a-code/concert-tracker",
         "createdDate": "November 2022",
-        "skills": ["Ruby on Rails", "React", "CSS", "Authentication", "Authorization", "API", "MVC framework", "ActiveRecord", "Matine", "Google Fonts"],
+        "skills": ["Ruby on Rails", "React", "CSS", "Authentication", "Authorization", "API", "MVC framework", "ActiveRecord", "Mantine framework", "Google Fonts"],
         "description": ["Implemented backend API with Ruby on Rails, using ActiveRecord and MVC framework to set up relationships.", "Created login functionality with authentication and authorization", "Used a combination of Mantine framework and CSS for UI, creating an eye-catching profile page and band cards."],
-        "commentary": ["Concert tracking", "First time using auth and auth"]
+        "commentary": ["Concert tracking", "First time using auth and auth", "Lessons learned:"],
+        "image": "https://drive.google.com/file/d/1cGeUYYxs79E0WQ4Ygtdtjub-kovXBhkl/view?usp=share_link"
       },
       {
         "id": 3,
@@ -161,7 +163,8 @@
         "createdDate": "November 2022",
         "skills": ["Ruby", "React", "CSS", "API", "ActiveRecord", "Google Fonts"],
         "description": ["Implemented CRUD functionality on appointment scheduling and creation.", "Added styling to support a strong visual identity – used CSS and an imported font to make app look like a handwritten notebook page.", "Mapped through backend seed data, generating cards for every instance of appointments, students, and instructors."],
-        "commentary": ["Thoughtful tool for users", "Help people education"]
+        "commentary": ["Thoughtful tool for users", "Help people education", "Lessons learned:"],
+        "image": "https://drive.google.com/file/d/1WX79NG1DOpCZrPlaQ9TNmBFl7PNSLlNp/view?usp=share_link"
       },
       {
         "id": 4,
@@ -171,7 +174,8 @@
         "createdDate": "October 2022",
         "skills": ["Ruby", "React", "CSS", "Google Fonts"],
         "description": ["Used React, CSS for styling, and implemented NavLink, ensuring site was compelling and easy to navigate.", "Created a RESTful API for the backend, organizing book and resource information so it was easily accessible."],
-        "commentary": ["Passion project", "Use coding to share resources and ideas"]
+        "commentary": ["Passion project", "Use coding to share resources and ideas", "Lessons learned:"],
+        "image": "https://drive.google.com/file/d/1EhvbPLyS1ykWKDfbDD4faf15mx2ttal3/view?usp=share_link"
       },
       {
         "id": 5,
@@ -181,7 +185,8 @@
         "createdDate": "October 2022",
         "skills": ["HTML", "CSS", "JavaScript"],
         "description": ["Used onClick", "CSS for styling"],
-        "commentary": ["I love farmers markets and cooking", "Eager to upgrade with better seasonal logic"]
+        "commentary": ["I love farmers markets and cooking", "Eager to upgrade with better seasonal logic", "Lessons learned:"],
+        "image": "https://drive.google.com/file/d/1wgl_Ko9yHuf7K-m2_sSOcz0TZRs1Dy62/view?usp=share_link"
       }
     ],
     "art-projects": [
