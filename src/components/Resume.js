@@ -1,6 +1,17 @@
+import { Document, Page } from "react-pdf";
+
+
+
 function Resume() {
     return (
+        <div>
+             <Document file="https://www.canva.com/design/DAFXHmLi6W4/view" >
+                <Page  />
+            </Document>
         <h1>Resume</h1>
+        <img src="https://www.canva.com/design/DAFXHmLi6W4/view"/>
+
+        </div>
     );
   }
 
