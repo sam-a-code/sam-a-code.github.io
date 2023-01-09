@@ -3,7 +3,7 @@ import headshot from '../images/headshot.jpg';
 function Bio() {
     return (
         <>
-            <h1 className="section-header">Sam's Bio</h1>
+            <h1 className="section-header">Bio</h1>
             <img src={headshot} className="bio-image"/>
             <div className="bio">
                 <h4>Hi, I'm Sam! If you're looking at this website then you're probably looking at a job application I've sent in <br></br>(or you're one of my mom's friends to whom she sent this). Either way, hello + I'm thrilled you're here!</h4>

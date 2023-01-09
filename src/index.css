@@ -48,7 +48,7 @@ li {
 }
 
 .card-child-link-text:hover {
-  text-decoration: wavy;
+  text-decoration: none;
 }
 
 .card-parent {

@@ -24,12 +24,17 @@ function EducationCardContainer() {
             />
         ) })
 
+        function seeResume () {
+            window.location.href = '/resume'
+        }
+
     return (
         <div>
             <h1 className="section-header">Education</h1>
             <ul className="card-parent">
             {educationList}
             </ul>
+            <button onClick={seeResume}>See resume</button>
         </div>
     );
   }
