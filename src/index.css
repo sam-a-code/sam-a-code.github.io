@@ -24,7 +24,6 @@ code {
 /* element styles */
 button {
   font-family: 'Antic Slab', serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  text-transform: uppercase;
   margin-bottom: 10px;
 }
 

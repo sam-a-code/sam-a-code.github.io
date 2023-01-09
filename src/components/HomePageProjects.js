@@ -1,4 +1,4 @@
-import bookDesserts from '../images/book-desserts.png'
+import bookDeserts from '../images/book-deserts.png'
 import farmersMarket from '../images/farmers-market.png'
 import groovehound from '../images/groovehound.png'
 import tutorAppointments from '../images/tutor-appointments.png'
@@ -72,49 +72,48 @@ function HomePageProjects() {
                 </div>
                 <div className="highlights-child">
                     <img src={tutorAppointments} />
-                    <h3>WeAte.</h3>
-                    <h5>A dinner party planning app.</h5>
+                    <h3>Tutoring Scheduler</h3>
+                    <h5>A tutor appointment scheduling app.</h5>
                     { !seeMore3 ? <button onClick={seeMoreFunction3}>Read more about this project</button> : <button onClick={seeMoreFunction3}>Close</button>}
-
                     <br></br>
                     {seeMore3 ?
                         <div>
-                        <p>WeAte is definitely my favorite project I've ever created. One of my all time favorite activities is hosting people. Whether it's a full dinner party or a quiet night with wine and cheese, making people feel comfortable, taken care of, and (of course), fed, brings me so much joy. The memories made when we spend time together, just enjoying each other's company, are always some of my favorites.
+                        <p>This app was created with the goal of helping students create, update, and cancel appointment sessions with tutors.
                             <br></br>
                             <br></br>
-                        Hosting a dinner party can be intimidating, so I created WeAte in part to help people make sure they have everything they need to host a successful night. For those who already are comfortable with hosting, WeAte allows them to keep track of the dates, times, and locations of their events, as well as storing recipes for future reference.
+                        I'm most proud of the CSS on this page – I imported a Google Font to make each page look hand-written, as well as using CSS to set each page's background to look like a notebook page.
                         </p>
                         </div>
                     : null }
                 </div>
                 <div className="highlights-child">
-                    <img src={bookDesserts} />
-                    <h3>WeAte.</h3>
-                    <h5>A dinner party planning app.</h5>
+                    <img src={bookDeserts} />
+                    <h3>Book Desert Resources</h3>
+                    <h5>An app to spread awareness about book deserts.</h5>
                     { !seeMore4 ? <button onClick={seeMoreFunction4}>Read more about this project</button> : <button onClick={seeMoreFunction4}>Close</button>}
                     <br></br>
                     {seeMore4 ?
                         <div>
-                        <p>WeAte is definitely my favorite project I've ever created. One of my all time favorite activities is hosting people. Whether it's a full dinner party or a quiet night with wine and cheese, making people feel comfortable, taken care of, and (of course), fed, brings me so much joy. The memories made when we spend time together, just enjoying each other's company, are always some of my favorites.
+                        <p>Book deserts are similar to food deserts – areas that are lacking in books and library resources for the community. While there are serious impacts, especially on children, from living in book deserts, there are some really fantastic organizations doing impactful work in this space. This app seeks to highlight those organizations and share resources about iniatives related to ending book deserts.
                             <br></br>
                             <br></br>
-                        Hosting a dinner party can be intimidating, so I created WeAte in part to help people make sure they have everything they need to host a successful night. For those who already are comfortable with hosting, WeAte allows them to keep track of the dates, times, and locations of their events, as well as storing recipes for future reference.
+                        Making this project made me realize how much impact I could have with coding. The ability to create and distribute resources is really exciting – especially when I can focus on causes about which I'm passionate.
                         </p>
                         </div>
                     : null }
                 </div>
                 <div className="highlights-child">
                     <img src={farmersMarket} />
-                    <h3>WeAte.</h3>
-                    <h5>A dinner party planning app.</h5>
+                    <h3>Farmers Market Recipe Finder</h3>
+                    <h5>A recipe-finder app, inspired by seasonal produce.</h5>
                     { !seeMore5 ? <button onClick={seeMoreFunction5}>Read more about this project</button> : <button onClick={seeMoreFunction5}>Close</button>}
                     <br></br>
                     {seeMore5 ?
                         <div>
-                        <p>WeAte is definitely my favorite project I've ever created. One of my all time favorite activities is hosting people. Whether it's a full dinner party or a quiet night with wine and cheese, making people feel comfortable, taken care of, and (of course), fed, brings me so much joy. The memories made when we spend time together, just enjoying each other's company, are always some of my favorites.
+                        <p>Farmers markets are EASILY one of my favorite places. Getting to go to the farmers market is always the highlight of my week. This app came about because I thought it would be helpful to have a way to track seasonal produce, which would help with recipe inspiration as I walked through the market.
                             <br></br>
                             <br></br>
-                        Hosting a dinner party can be intimidating, so I created WeAte in part to help people make sure they have everything they need to host a successful night. For those who already are comfortable with hosting, WeAte allows them to keep track of the dates, times, and locations of their events, as well as storing recipes for future reference.
+                        We used a recipe API to create this app – using our search bar as the integration with the app. It's helpful to be able to see a handful of recipes with just a click of a button.
                         </p>
                         </div>
                     : null }

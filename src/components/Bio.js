@@ -20,6 +20,8 @@ function Bio() {
                     <li className="bio-list">One of my favorite questions to ask people is what they've been reading lately. It's such a good way to learn more about a friend you've known forever or someone to just met. Plus, I always end up with great new recommendations.</li>
                     <br></br>
                     <li className="bio-list">I'm an artist – I design patterns and get them printed on clothing. I had an e-commerce clothing company where I sold apparel and accessories printed with my artwork. I shuttered the company because I wanted to pivot to more sustainable creation and distribution. My next art endeavor is learning how to screenprint, with the goal of putting my patterns on unique thrifted pieces.</li>
+                    <br></br>
+                    <li className="bio-list">I love a good farmers market (actually, I even love a bad one). That's actually how I found my current apartment – I plugged my favorite market into a map and only looked at buildings that were walking distance from it. Easily one of the best ideas I've ever had, if I do say so myself.</li>
                 </ul>
                 <br></br>
 
