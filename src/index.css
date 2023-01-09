@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cormorant:ital,wght@0,300;0,500;0,700;1,300;1,700&family=Luckiest+Guy&family=Montserrat:wght@200&family=Nanum+Myeongjo&family=Rubik+Mono+One&family=Sigmar+One&display=swap');
+
 body {
   /* margin: .5rem 1rem .5rem 1rem; */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+  font-family: 'Antic Slab', serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: 'Luckiest Guy', cursive; */
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -26,10 +29,12 @@ img {
 }
 
 .section-header {
-  border-bottom: 3px solid black;
+  border-top: 3px solid black;
   margin-top: 1.5rem;
-  margin-left: 39%;
-  margin-right: 39%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Rubik Mono One', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 10px;
 }
 
 .card-parent {
@@ -39,43 +44,72 @@ img {
 }
 
 .card-child {
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
+  /* box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px; */
   max-width: 30%;
-  /* margin-left: .5rem;
-  margin-right: .5rem; */
+  padding: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-top: 20px;
+}
+
+.card-child:hover {
+  box-shadow: rgba(217, 37, 233, 0.3) 0px 1px 3px 0px, rgba(217, 37, 233, 0.15) 0px 2px 10px 2px;
+}
+
+.card-child-link-text {
+  color: black;
+}
+
+.card-child-link-text:hover {
+  text-decoration: wavy;
 }
 
 
 .navbar {
   padding: .5rem 1rem 0rem 1rem;
-  color: black;
   text-decoration: none;
   transition: 1s;
   text-transform: uppercase;
-  position: sticky;
+  color: black;
+  font-family: 'Rubik Mono One', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+
 }
 
 .navbar:hover {
   font-size: 1.5rem;
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: url("https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-image: url("https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"); */
+  color: white;
 }
 
 .navbar-parent {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   margin-bottom: 0;
-  padding-bottom: .5rem;
+  padding: 1rem 2rem 1rem 2rem;
   border-bottom: 1px dotted black;
-  transition: all .5s ease-in-out;
+  transition: 1s ease;
+  position: fixed;
+  top: 0;
+  left: 30%;
+  background-color: white;
+}
+
+.navbar-parent:hover {
+  background-image: url("https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  opacity: .5;
+  border-radius: 5px;
 }
 
 
-
 .title-name {
-  margin-top: 2%;
+  margin-top: 3%;
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
+  font-size: 110px;
 }
 
 .title-1 {
@@ -86,8 +120,10 @@ img {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
+  font-size: 80px;
 
 }
+
 .title-2 {
   margin-right: 3%;
   text-align: right;
@@ -96,6 +132,8 @@ img {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
+  font-size: 80px;
+
 }
 
 .title-3 {
@@ -106,6 +144,8 @@ img {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
+  font-size: 80px;
+
 }
 
 .footer {
@@ -114,6 +154,8 @@ img {
   background-color: blueviolet;
   padding: 2rem;
   border-top: solid 1px black;
+  font-family: 'Rubik Mono One', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .job-section {
@@ -146,6 +188,9 @@ img {
   -webkit-text-fill-color: transparent;
   background-image: url("https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
   font-size: 60px;
+  margin-top: 3%;
+  font-family: 'Rubik Mono One', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 /* .text-picture-background:hover {
@@ -155,3 +200,6 @@ img {
 
 } */
 
+li {
+  list-style-type: "🌼  ";
+}

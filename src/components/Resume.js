@@ -9,7 +9,7 @@ function Resume() {
                 <Page  />
             </Document>
         <h1>Resume</h1>
-        <img src="https://www.canva.com/design/DAFXHmLi6W4/view"/>
+        <iframe src="https://www.canva.com/design/DAFXHmLi6W4/view"/>
 
         </div>
     );
