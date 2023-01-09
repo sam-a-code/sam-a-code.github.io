@@ -26,12 +26,16 @@ function JobCardContainer() {
             />
         ) })
 
+    function seeResume () {
+        window.location.href = '/resume'
+    }
     return (
         <div>
             <h1 className="section-header">Work History</h1>
             <ul className="card-parent">
             {jobsList}
             </ul>
+            <button onClick={seeResume}>See resume</button>
         </div>
     );
   }

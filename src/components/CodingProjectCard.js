@@ -23,7 +23,7 @@ console.log(demo)
             <h3>{title}</h3>
             {title ? <h4>{oneLiner}</h4> : null}
             {url ? <><a href={url} target="_blank">See the project here!</a><br></br> </> : null}
-            {demo ? <div><iframe src={demo} target="_blank">Watch the demo</iframe><br></br></div> : null}
+            {demo ? <div><iframe src={demo} target="_blank" className="loom-demo">Watch the demo</iframe><br></br></div> : null}
             {/* {demo ? <><a href={demo} target="_blank">Watch the demo</a><br></br></> : null} */}
             {githubUrl ? <><a href={githubUrl} target="_blank">Github link</a><br></br></> : null}
             {githubUrl2 ? <><a href={githubUrl2} target="_blank">Backend Github link</a><br></br></> : null}

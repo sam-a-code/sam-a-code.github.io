@@ -95,8 +95,8 @@ li {
   transition: 1s ease;
   position: fixed;
   top: 0;
-  align-content: center;
   background-color: white;
+  width: 100%;
 }
 
 .section-header {
@@ -131,7 +131,6 @@ li {
 
 .highlights-child {
   max-width: 450px;
-  min-height: 450px;
   margin: 1%;
   border-radius: 3px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -147,6 +146,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
 }
 
 .text-picture-background {
@@ -193,7 +193,10 @@ li {
 /* resume page */
 
 /* portfolio pages */
-
+.loom-demo {
+  border-radius: 3px;
+  border: none;
+}
 .project-list {
   text-align: left;
 }
