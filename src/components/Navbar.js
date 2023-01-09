@@ -29,9 +29,9 @@ function Navbar() {
         <header >
             <div className="navbar-parent">
                 <Link className="navbar" to="/">Bio</Link>
-                <Link className="navbar" to="/resume">Resume</Link>
-                <Link className="navbar" to="/coding-portfolio">Coding Portfolio</Link>
-                <Link className="navbar" to="/art-portfolio">Art Portfolio</Link>
+                <Link className="navbar" to="/resume">| Resume</Link>
+                <Link className="navbar" to="/coding-portfolio">| Coding Portfolio</Link>
+                <Link className="navbar" to="/art-portfolio">| Art Portfolio</Link>
             </div>
         { isHome(location) ?
         <div className='text-picture-background'>
@@ -41,7 +41,7 @@ function Navbar() {
             <h2 className='title-3'>artist</h2>
         </div> :
         <div className='text-picture-background'>
-            <h1>SAMANTHA AVERY</h1>
+            <h1 className='title-name'>SAMANTHA AVERY</h1>
         </div>
         }
       </header>

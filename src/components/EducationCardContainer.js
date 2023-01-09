@@ -25,7 +25,7 @@ function EducationCardContainer() {
         ) })
 
     return (
-        <div className="education-section">
+        <div>
             <h1 className="section-header">Education</h1>
             <ul className="card-parent">
             {educationList}

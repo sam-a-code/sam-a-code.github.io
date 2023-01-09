@@ -27,7 +27,7 @@ function JobCardContainer() {
         ) })
 
     return (
-        <div className="job-section">
+        <div>
             <h1 className="section-header">Work History</h1>
             <ul className="card-parent">
             {jobsList}
