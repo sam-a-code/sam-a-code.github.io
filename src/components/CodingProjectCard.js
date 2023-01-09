@@ -16,16 +16,17 @@ function CodingProjectCard({title, oneLiner, url, demo, githubUrl, githubUrl2, c
         <ul>{commentary.map(item => <li key={item}> {item} </li>)}</ul>
         </div>;
 
-console.log(image)
+console.log(demo)
     return (
         <div className="card-child">
             {/* <img src={image}/> */}
             <h3>{title}</h3>
             {title ? <h4>{oneLiner}</h4> : null}
             {url ? <><a href={url} target="_blank">See the project here!</a><br></br> </> : null}
-            {demo ? <><a href={demo} target="_blank">Watch the demo</a><br></br></> : null}
+            {demo ? <div><iframe src={demo} target="_blank">Watch the demo</iframe><br></br></div> : null}
+            {/* {demo ? <><a href={demo} target="_blank">Watch the demo</a><br></br></> : null} */}
             {githubUrl ? <><a href={githubUrl} target="_blank">Github link</a><br></br></> : null}
-            {githubUrl2 ? <><a href={githubUrl2} target="_blank">Secondary github link</a><br></br></> : null}
+            {githubUrl2 ? <><a href={githubUrl2} target="_blank">Backend Github link</a><br></br></> : null}
             {createdDate ? <h4>Created: {createdDate}</h4> : null}
             {description ? <p className="project-list">Description: {descriptionList}</p> : null}
             {commentary ? <p className="project-list">My commentary: {commentaryList}</p> : null}
@@ -33,5 +34,8 @@ console.log(image)
         </div>
     );
   }
+
+
+//   <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/33c3cf49e8eb448da5f20883f8468d70" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
   export default CodingProjectCard;

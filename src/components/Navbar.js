@@ -36,9 +36,9 @@ function Navbar() {
         { isHome(location) ?
         <div className='text-picture-background'>
             <h1 className='title-name'>SAMANTHA AVERY</h1>
-            <h2 className='title-1'>Program manager</h2>
-            <h2 className='title-2'>software engineer</h2>
-            <h2 className='title-3'>artist</h2>
+            <h2 className='title-subheader title-1'>Program manager</h2>
+            <h2 className='title-subheader title-2'>software engineer</h2>
+            <h2 className='title-subheader title-3'>artist</h2>
         </div> :
         <div className='text-picture-background'>
             <h1 className='title-name'>SAMANTHA AVERY</h1>
