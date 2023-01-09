@@ -155,8 +155,18 @@ img {
 }
 
 .bio {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.bio-list {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: 400;
+}
+
+.bio-list-header {
+  font-weight: bold;
 }
 
 .project-list {
