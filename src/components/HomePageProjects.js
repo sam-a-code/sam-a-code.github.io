@@ -3,7 +3,8 @@ import farmersMarket from '../images/farmers-market.png'
 import groovehound from '../images/groovehound.png'
 import tutorAppointments from '../images/tutor-appointments.png'
 import weAte from '../images/weate.png'
-import { useState } from 'react'
+import React, { useState } from 'react'
+import Slider from "react-slick";
 
 
 function HomePageProjects() {
@@ -33,10 +34,19 @@ function HomePageProjects() {
         setSeeMore5(!seeMore5)
     }
 
+    var settings = {
+        dots: true,
+        // infinite: true,
+        // speed: 500,
+        // slidesToShow: 3,
+        slidesToScroll: 5,
+        arrows: true,
+      };
+
     return (
         <div>
             <h1 className="section-header">Highlighted Projects</h1>
-            <div className="highlights-parent">
+            <Slider {...settings}>
                 <div className="highlights-child">
                     <img src={weAte} />
                     <h3>WeAte.</h3>
@@ -118,6 +128,11 @@ function HomePageProjects() {
                         </div>
                     : null }
                 </div>
+                </Slider>
+            <div className="highlights-parent">
+
+
+
             </div>
             <button onClick={goToProjects}>See all technical projects</button>
         </div>
