@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cormorant:ital,wght@0,300;0,500;0,700;1,300;1,700&family=Luckiest+Guy&family=Montserrat:wght@200&family=Nanum+Myeongjo&family=Rubik+Mono+One&family=Sigmar+One&display=swap');
 @import "~react-image-gallery/styles/css/image-gallery.css";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 
 body {
   margin: 0;
@@ -113,6 +115,17 @@ li {
   font-size: 25px;
 }
 
+.bio-child {
+  max-width: 50%;
+}
+
+.bio-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .bio-list {
   margin-left: 20%;
   margin-right: 20%;
@@ -124,10 +137,10 @@ li {
   font-weight: bold;
 }
 
-.bio-image {
+/* .bio-image {
   max-width: 300px;
   border-radius: 30px;
-}
+} */
 
 .highlights-child {
   max-width: 450px;
