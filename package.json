@@ -9,6 +9,7 @@
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-image-gallery": "^1.2.11",
     "react-multi-carousel": "^2.8.2",
     "react-pdf": "^6.2.1",
     "react-router-dom": "^6.6.1",

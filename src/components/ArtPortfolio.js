@@ -11,6 +11,7 @@ import saguaro from '../images/saguaro/saguaro.jpg'
 import saguaroFannyPack from '../images/saguaro/saguaro-fannypack.png'
 import saguaroLeggings from '../images/saguaro/saguaro-leggings.png'
 import saguaroTank from '../images/saguaro/saguaro-tank.png'
+import ImageGallery from 'react-image-gallery';
 
 
 function ArtPortfolio() {
@@ -28,10 +29,26 @@ function ArtPortfolio() {
         setSeeMoreSaguaro(!seeMoreSaguaro)
     }
 
+    const images = [
+        {
+          original: 'https://i.imgur.com/gExd9Ur.jpg',
+        //   thumbnail: '../images/calathea/calathea.jpg',
+        description: 'test',
+        },
+        {
+          original: 'https://picsum.photos/id/1015/1000/600/',
+        //   thumbnail: 'https://picsum.photos/id/1015/250/150/',
+        },
+        {
+          original: 'https://picsum.photos/id/1019/1000/600/',
+        //   thumbnail: 'https://picsum.photos/id/1019/250/150/',
+        },
+      ];
 
 
     return (
         <>
+        <ImageGallery items={images} />
         <div className="coding-project-section">
             <h1 className="section-header">Art + Designs</h1>
             <div className="art-parent">
