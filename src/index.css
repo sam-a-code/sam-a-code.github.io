@@ -200,4 +200,32 @@ li {
   text-align: left;
 }
 
+.art-child {
+  max-width: 450px;
+  margin: 1%;
+  border-radius: 3px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 10px;
+}
 
+.art-child img {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.art-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:flex-start;
+}
+
+.product-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-images-child img{
+  max-width: 30%;
+
+}
