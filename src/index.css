@@ -46,6 +46,10 @@ li {
   margin-top: 20px;
 }
 
+.card-child img {
+  max-width: 100%;
+}
+
 .card-child-link-text {
   color: black;
 }
@@ -117,6 +121,13 @@ li {
 
 .bio-child {
   max-width: 50%;
+  font-size: 18px;
+  /* border-radius: 50px; */
+}
+
+.bio-child h3 {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .bio-parent {
