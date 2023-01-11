@@ -127,7 +127,7 @@ function JobCardContainer() {
                 </div>
             </div>
             <br></br>
-            <button onClick={seeResume}>See resume</button>
+            <button className="see-more-button" onClick={seeResume}>See resume</button>
         </div>
 
 

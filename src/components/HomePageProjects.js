@@ -227,7 +227,7 @@ function HomePageProjects() {
                 </div> */}
                 {/* </Slider> */}
                 </div>
-            <button onClick={goToProjects}>See all technical projects</button>
+            <button onClick={goToProjects} className="see-more-button">See all technical projects</button>
         </div>
     );
   }
