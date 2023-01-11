@@ -14,6 +14,7 @@ import saguaroTank from '../images/saguaro/saguaro-tank.png'
 import ImageGallery from 'react-image-gallery';
 
 
+
 function ArtPortfolio() {
 
     const [seeMoreZinnia, setSeeMoreZinnia] = useState(false)
@@ -49,7 +50,7 @@ function ArtPortfolio() {
     return (
         <>
         <ImageGallery items={images} />
-        <div className="coding-project-section">
+        <div >
             <h1 className="section-header">Art + Designs</h1>
             <div className="art-parent">
                 <div className="art-child">
@@ -61,9 +62,9 @@ function ArtPortfolio() {
                         : <button onClick={seeMoreZinniaFunction}>See less</button>}
                     {seeMoreZinnia ?
                         <div className='product-images'>
-                            <img src={zinniaHoodie} className='product-images-child'/>
-                            <img src={zinniaTank} className='product-images-child'/>
-                            <img src={zinniaTee} className='product-images-child'/>
+                            <div className='product-images-child'><img src={zinniaHoodie} /></div>
+                            <div className='product-images-child'><img src={zinniaTank} /></div>
+                            <div className='product-images-child'><img src={zinniaTee} /></div>
                         </div>
                     : null}
                 </div>
@@ -75,10 +76,10 @@ function ArtPortfolio() {
                         <button onClick={seeMoreCalatheaFunction}>See more</button>
                         : <button onClick={seeMoreCalatheaFunction}>See less</button>}
                     {seeMoreCalathea ?
-                        <div>
-                            <img src={calatheaCrop}/>
-                            <img src={calatheaHoodie}/>
-                            <img src={calatheaLeggings}/>
+                        <div className='product-images'>
+                            <div className='product-images-child'><img src={calatheaCrop}/></div>
+                            <div className='product-images-child'><img src={calatheaHoodie}/></div>
+                            <div className='product-images-child'><img src={calatheaLeggings}/></div>
                         </div>
                     : null}
                 </div>
@@ -90,10 +91,10 @@ function ArtPortfolio() {
                         <button onClick={seeMoreSaguaroFunction}>See more</button>
                         : <button onClick={seeMoreSaguaroFunction}>See less</button>}
                     {seeMoreSaguaro ?
-                        <div>
-                            <img src={saguaroFannyPack}/>
-                            <img src={saguaroLeggings}/>
-                            <img src={saguaroTank}/>
+                        <div className='product-images'>
+                            <div className='product-images-child'><img src={saguaroFannyPack}/></div>
+                            <div className='product-images-child'><img src={saguaroLeggings}/></div>
+                            <div className='product-images-child'><img src={saguaroTank}/></div>
                         </div>
                     : null}
                 </div>

@@ -2,6 +2,8 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 
 body {
   margin: 0;
@@ -116,10 +118,11 @@ li {
 
 /* global styles */
 .card-child {
-  max-width: 30%;
+  max-width: 28%;
   padding: 10px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card-child img {
@@ -359,9 +362,16 @@ li {
 .product-images {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:flex-start;
 }
 
-.product-images-child img{
-  max-width: 30%;
+.product-images-child{
+  max-width: 25%;
+  transition: 1s ease;
 
+}
+
+.product-images-child:hover img {
+  transform: scale(3);
 }
