@@ -34,7 +34,7 @@ function JobCardContainer() {
         <div>
             <h1 className="section-header">Work History</h1>
             <div className="card-parent">
-                <div className="card-child">
+                <div className="job-card-child">
                     {/* <img src={image}/> */}
                     <h3>Operations Associate</h3>
                     <a href="https://studio.com" target="_blank" className="card-child-link-text">Studio</a>
@@ -46,7 +46,7 @@ function JobCardContainer() {
                     <li>Managed a freelance Quality Assurance associate. Conducted the hiring process, created software walkthrough documentation, used technical judgment for bug triage, and escalated issues to Engineering as needed.</li>
                     </ul>
                 </div>
-                <div className="card-child">
+                <div className="job-card-child">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png"/>
                     <h3>Operations Specialist</h3>
                     <a href="https://youtube.com" target="_blank" className="card-child-link-text">YouTube</a>
@@ -59,7 +59,7 @@ function JobCardContainer() {
                     <li>Developed documentation for user roadmaps, tools training, FAQs, SOPs, onboarding, and institutional knowledge.</li>
                     </ul>
                 </div>
-                <div className="card-child">
+                <div className="job-card-child">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png"/>
                     <h3>Events Specialist (Data Analyst)</h3>
                     <a href="https://youtube.com" target="_blank" className="card-child-link-text">YouTube</a>
@@ -71,7 +71,7 @@ function JobCardContainer() {
                     <li>Analyzed data, maintained data integrity, led data clean-up initiatives, and leveraged analytic insights to improve events.</li>
                     </ul>
                 </div>
-                <div className="card-child">
+                <div className="job-card-child">
                     {/* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png"/> */}
                     <h3>Program Manager</h3>
                     <a href="https://theheartseries.com" target="_blank" className="card-child-link-text">The Heart Series</a>

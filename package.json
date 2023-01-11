@@ -12,6 +12,7 @@
     "react-image-gallery": "^1.2.11",
     "react-multi-carousel": "^2.8.2",
     "react-pdf": "^6.2.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",

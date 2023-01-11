@@ -119,6 +119,11 @@ li {
   font-size: 25px;
 }
 
+.bio img {
+  max-width: 33%;
+  border-radius: 3px;
+}
+
 .bio-child {
   max-width: 50%;
   font-size: 18px;
@@ -128,6 +133,7 @@ li {
 .bio-child h3 {
   margin-left: 15px;
   margin-right: 15px;
+  font-size: 18px;
 }
 
 .bio-parent {
@@ -153,24 +159,46 @@ li {
   border-radius: 30px;
 } */
 
+.carousel li {
+    list-style-type: none;
+}
+
 .highlights-child {
-  max-width: 450px;
-  margin: 1%;
+  /* max-width: 50%; */
+  /* margin: 1% ;
   border-radius: 3px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  padding: 10px;
+  padding: 10px; */
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+
+
 }
 
 .highlights-child img {
-  max-width: 100%;
   border-radius: 3px;
 }
 
-.highlights-parent {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+.highlights-child p {
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .highlights-parent {
+  justify-content: center;
+} */
+
+.job-card-child {
+  max-width: 30%;
+  padding: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-top: 20px;
+}
+
+.job-card-img {
+  max-width: 25%;
 }
 
 .text-picture-background {
