@@ -1,4 +1,4 @@
-import CodingProjectContainer from "./CodingProjectContainer";
+// import CodingProjectContainer from "./CodingProjectContainer";
 
 function CodingPortfolio() {
     return (

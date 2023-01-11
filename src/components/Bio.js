@@ -1,4 +1,3 @@
-import headshot from '../images/headshot.jpg';
 
 function Bio() {
     return (

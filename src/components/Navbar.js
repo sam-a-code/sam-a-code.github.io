@@ -5,14 +5,7 @@ import { useState } from 'react';
 
 function Navbar() {
 
-    // is this true? then display this, otherwise display that
-    // use useLocation to identify url
-    // function to check url
-
     let location = useLocation();
-
-    console.log(location.pathname)
-
 
     function isHome(location) {
         const path = location.pathname
@@ -21,9 +14,6 @@ function Navbar() {
           }
           else return false
         }
-
-
-
 
     return (
         <header >

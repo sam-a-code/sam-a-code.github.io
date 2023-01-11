@@ -1,4 +1,4 @@
-import EducationCard from "./EducationCard";
+// import EducationCard from "./EducationCard";
 import React, {useState, useEffect} from "react";
 
 

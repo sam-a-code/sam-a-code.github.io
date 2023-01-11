@@ -1,11 +1,6 @@
-import bookDeserts from '../images/book-deserts.png'
-import farmersMarket from '../images/farmers-market.png'
-import groovehound from '../images/groovehound.png'
-import tutorAppointments from '../images/tutor-appointments.png'
-import weAte from '../images/weate.png'
 import React, { useState } from 'react'
 import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 
@@ -44,7 +39,7 @@ function HomePageProjects() {
                 <div className='highlights-parent'>
                 <Carousel autoPlay infiniteLoop >
                     <div className='highlights-child'>
-                        <img src={weAte} />
+                        <img src="https://i.imgur.com/hAJVs9N.png" />
                         <h3>WeAte.</h3>
                         <h5>A dinner party planning app.</h5>
                         {/* { !seeMore1 ? <button onClick={seeMoreFunction1}>Read more about this project</button> : <button onClick={seeMoreFunction1}>Close</button>}
@@ -60,7 +55,7 @@ function HomePageProjects() {
                         : null } */}
                     </div>
                     <div className='highlights-child'>
-                        <img src={groovehound} />
+                        <img src="https://i.imgur.com/aVyRJoK.png" />
                         <h3>Groovehound</h3>
                         <h5>A concert tracking app.</h5>
                         {/* { !seeMore2 ? <button onClick={seeMoreFunction2}>Read more about this project</button> : <button onClick={seeMoreFunction2}>Close</button>}
@@ -76,7 +71,7 @@ function HomePageProjects() {
                     : null } */}
                     </div>
                     <div className='highlights-child'>
-                        <img src={tutorAppointments} />
+                        <img src="https://i.imgur.com/ERQenE8.png" />
                         <h3>Tutoring Scheduler</h3>
                         <h5>A tutor appointment scheduling app.</h5>
                         {/* { !seeMore3 ? <button onClick={seeMoreFunction3}>Read more about this project</button> : <button onClick={seeMoreFunction3}>Close</button>}
@@ -92,7 +87,7 @@ function HomePageProjects() {
                         : null } */}
                     </div>
                     <div className='highlights-child'>
-                        <img src={bookDeserts} />
+                        <img src="https://i.imgur.com/4xDejlO.png" />
                         <h3>Book Desert Resources</h3>
                         <h5>An app to spread awareness about book deserts.</h5>
                         {/* { !seeMore4 ? <button onClick={seeMoreFunction4}>Read more about this project</button> : <button onClick={seeMoreFunction4}>Close</button>}
@@ -108,7 +103,7 @@ function HomePageProjects() {
                         : null } */}
                     </div>
                     <div className='highlights-child'>
-                        <img src={farmersMarket} />
+                        <img src="https://i.imgur.com/dtYFFGo.png" />
                         <h3>Farmers Market Recipe Finder</h3>
                         <h5>A recipe-finder app, inspired by seasonal produce.</h5>
                         {/* { !seeMore5 ? <button onClick={seeMoreFunction5}>Read more about this project</button> : <button onClick={seeMoreFunction5}>Close</button>}
