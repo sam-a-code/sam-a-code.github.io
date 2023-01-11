@@ -54,6 +54,7 @@ function EducationCardContainer() {
                 </div>
 
             </div>
+            <br></br>
             <button onClick={seeResume}>See resume</button>
         </div>
 
