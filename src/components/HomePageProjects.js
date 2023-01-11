@@ -4,9 +4,8 @@ import groovehound from '../images/groovehound.png'
 import tutorAppointments from '../images/tutor-appointments.png'
 import weAte from '../images/weate.png'
 import React, { useState } from 'react'
-import Slider from "react-slick";
 import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
 
 
@@ -36,18 +35,6 @@ function HomePageProjects() {
     const [seeMore5, setSeeMore5] = useState(false)
     function seeMoreFunction5() {
         setSeeMore5(!seeMore5)
-    }
-
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 5,
-      };
-
-    var caroSettings = {
-        renderArrowNext: true,
     }
 
     return (

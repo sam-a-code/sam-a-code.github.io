@@ -50,9 +50,9 @@ button {
 
 }
 
-.see-more-button:hover {
-  font-size: 16px;
-}
+/* .see-more-button:hover {
+  transform: scale(1.05);
+} */
 
 
 .see-more-button:after {
@@ -182,6 +182,7 @@ li {
   top: 0;
   background-color: white;
   width: 100%;
+  z-index: 1000;
 }
 
 .section-header {
@@ -374,4 +375,16 @@ li {
 
 .product-images-child:hover img {
   transform: scale(3);
+}
+
+.slider {
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  min-width: 50%;
+}
+
+.slider img {
+  min-width: 50%;
 }
