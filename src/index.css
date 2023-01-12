@@ -435,3 +435,48 @@ li {
 .slider img {
   min-width: 50%;
 }
+
+
+@media (min-width: 320px) and (max-width: 999px) {
+  .title-name, .title-1, .title-2, .title-3 {
+    font-size: 20px;
+    width: 100%;
+    /* margin-top: 20%; */
+    padding: 0px;
+  }
+
+  .text-picture-background {
+    margin-top: 10%;
+    padding: 0px;
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .navbar-parent {
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+   }
+
+   .navbar {
+    font-size: 10px;
+    margin: 0;
+    padding: 2%;
+   }
+
+   .bio {
+    font-size: 13px;
+   }
+
+   .bio-parent {
+    flex-wrap: nowrap;
+    flex: none;
+  
+   }
+
+   .bio-child {
+    width: 100%;
+
+   }
+
+}
