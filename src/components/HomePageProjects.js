@@ -46,7 +46,7 @@ function HomePageProjects() {
 
     return (
         <div >
-            <h1 className="section-header">Highlighted Projects</h1>
+            <h1 className="section-header">Highlights</h1>
             <Slider {...settings} className="slider-parent">
                 <div>
                     <img className='slider-home' src="https://i.imgur.com/hAJVs9N.png"/>
