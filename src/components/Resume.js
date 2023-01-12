@@ -3,7 +3,7 @@ import resume from '../images/pretty-resume-2.png'
 
 function Resume() {
     return (
-        <div>
+        <div className='resume'>
             <img src={resume}/>
         </div>
     );
