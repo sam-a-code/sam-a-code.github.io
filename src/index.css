@@ -55,6 +55,7 @@ button {
   touch-action: manipulation;
   position: relative;
   margin-bottom: 15px;
+  text-transform: uppercase;
 
 }
 
@@ -121,7 +122,7 @@ img {
 }
 
 li {
-  list-style-type: "🌼  ";
+  list-style-type: "🪴  ";
 }
 
 /* global styles */
