@@ -454,20 +454,24 @@ li {
     padding: 0px;
     margin: 0;
   }
+
   .title-name {
     font-size: 22px;
     width: 100%;
     padding: 0px;
     margin: 0;
+    padding-bottom: 1%;
+
+  }
+
+  .title-3 {
+    padding-bottom: 3%;
   }
 
   .title-subheader {
     margin: 0;
     width: 100%;
-  }
-
-  .App {
-    width: 100%;
+    text-align: center;
   }
 
   .text-picture-background {
@@ -475,8 +479,8 @@ li {
     padding: 0px;
     font-size: 10px;
     width: 100%;
-    /* margin-left: 7%;
-    margin-right: 7%; */
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .navbar-parent {
@@ -513,12 +517,14 @@ li {
    }
 
    .bio-parent {
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: none;
     align-items: center;
    }
 
@@ -577,6 +583,10 @@ li {
     width: 100%;
     padding: 0;
     margin: 0;
+  }
+
+  .root {
+    width: 100%;
   }
 
 }
