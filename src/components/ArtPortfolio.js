@@ -102,21 +102,6 @@ function ArtPortfolio() {
             <div>
                 <h1 className="section-header">Art + Designs</h1>
                 <div className="art-parent">
-                <div className="art-child">
-                        <img src="https://i.imgur.com/gExd9Ur.jpg"/>
-                        <h3>Calathea</h3>
-                        <h4>Marker + paper</h4>
-                        {!seeMoreCalathea ?
-                            <button onClick={seeMoreCalatheaFunction}>See more</button>
-                            : <button onClick={seeMoreCalatheaFunction}>See less</button>}
-                        {seeMoreCalathea ?
-                            <div className='product-images'>
-                                <div className='product-images-child'><img src="https://i.imgur.com/uND1oCX.png" /></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/F1fPuOY.png" /></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/ZtL0zpa.png" /></div>
-                            </div>
-                        : null}
-                    </div>
                     <div className="art-child">
                         <img src="https://i.imgur.com/HyN6TW3.png"/>
                         <h3>Zinnia</h3>
@@ -129,81 +114,6 @@ function ArtPortfolio() {
                                 <div className='product-images-child'><img src="https://i.imgur.com/u4RriFn.png" /></div>
                                 <div className='product-images-child'><img src="https://i.imgur.com/XkJkVCF.png" /></div>
                                 <div className='product-images-child'><img src="https://i.imgur.com/RWsXZe2.png" /></div>
-                            </div>
-                        : null}
-                    </div>
-                    <div className="art-child">
-                        <img src="https://i.imgur.com/sV9H0oP.jpg"/>
-                        <h3>Saguaro</h3>
-                        <h4>Marker + paper</h4>
-                        {!seeMoreSaguaro ?
-                            <button onClick={seeMoreSaguaroFunction}>See more</button>
-                            : <button onClick={seeMoreSaguaroFunction}>See less</button>}
-                        {seeMoreSaguaro ?
-                            <div className='product-images'>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/eaPi7My.png"/></div>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/THYCkoh.png"/></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/HDxamlM.png" /></div>
-                            </div>
-                        : null}
-                    </div>
-                    <div className="art-child">
-                        <img src="https://i.imgur.com/cX8H8rS.jpg"/>
-                        <h3>retusa</h3>
-                        <h4>Marker + paper</h4>
-                        {!seeMoreRetusa ?
-                            <button onClick={seeMoreRetusaFunction}>See more</button>
-                            : <button onClick={seeMoreRetusaFunction}>See less</button>}
-                        {seeMoreRetusa ?
-                            <div className='product-images'>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/v9uJ91B.png"/></div>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/oh0pFU7.png"/></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/9bUYq3w.png" /></div>
-                            </div>
-                        : null}
-                    </div>
-                    <div className="art-child">
-                        <img src="https://i.imgur.com/Qmsgs2i.jpg"/>
-                        <h3>azalea</h3>
-                        <h4>iPencil + Procreate</h4>
-                        {!seeMoreAzalea ?
-                            <button onClick={seeMoreAzaleaFunction}>See more</button>
-                            : <button onClick={seeMoreAzaleaFunction}>See less</button>}
-                        {seeMoreAzalea ?
-                            <div className='product-images'>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/VpLY4Cs.png"/></div>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/XrSZJwQ.png"/></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/Z3Z4Svr.png" /></div>
-                            </div>
-                        : null}
-                    </div>
-                    <div className="art-child">
-                        <img src="https://i.imgur.com/0z7UnnE.png"/>
-                        <h3>orchid</h3>
-                        <h4>iPencil + Procreate</h4>
-                        {!seeMoreOrchid ?
-                            <button onClick={seeMoreOrchidFunction}>See more</button>
-                            : <button onClick={seeMoreOrchidFunction}>See less</button>}
-                        {seeMoreOrchid ?
-                            <div className='product-images'>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/hrGRi7G.png"/></div>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/kOjkIg3.png"/></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/UW6bSBK.png" /></div>
-                            </div>
-                        : null}
-                    </div>
-                    <div className="art-child">
-                        <img src="https://i.imgur.com/KXhYLW1.png"/>
-                        <h3>lil green guy</h3>
-                        <h4>iPencil + Procreate</h4>
-                        {!seeMoreGG ?
-                            <button onClick={seeMoreGGFunction}>See more</button>
-                            : <button onClick={seeMoreGGFunction}>See less</button>}
-                        {seeMoreGG ?
-                            <div className='product-images'>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/gcfmVoK.png"/></div>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/YdOgcAH.png"/></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/uzrfKfO.png" /></div>
                             </div>
                         : null}
                     </div>
@@ -223,6 +133,66 @@ function ArtPortfolio() {
                         : null}
                     </div>
                     <div className="art-child">
+                        <img src="https://i.imgur.com/KXhYLW1.png"/>
+                        <h3>lil green guy</h3>
+                        <h4>iPencil + Procreate</h4>
+                        {!seeMoreGG ?
+                            <button onClick={seeMoreGGFunction}>See more</button>
+                            : <button onClick={seeMoreGGFunction}>See less</button>}
+                        {seeMoreGG ?
+                            <div className='product-images'>
+                                <div className='product-images-child'><img src= "https://i.imgur.com/gcfmVoK.png"/></div>
+                                <div className='product-images-child'><img src= "https://i.imgur.com/YdOgcAH.png"/></div>
+                                <div className='product-images-child'><img src="https://i.imgur.com/uzrfKfO.png" /></div>
+                            </div>
+                        : null}
+                    </div>
+                    <div className="art-child">
+                        <img src="https://i.imgur.com/gExd9Ur.jpg"/>
+                        <h3>Calathea</h3>
+                        <h4>Marker + paper</h4>
+                        {!seeMoreCalathea ?
+                            <button onClick={seeMoreCalatheaFunction}>See more</button>
+                            : <button onClick={seeMoreCalatheaFunction}>See less</button>}
+                        {seeMoreCalathea ?
+                            <div className='product-images'>
+                                <div className='product-images-child'><img src="https://i.imgur.com/uND1oCX.png" /></div>
+                                <div className='product-images-child'><img src="https://i.imgur.com/F1fPuOY.png" /></div>
+                                <div className='product-images-child'><img src="https://i.imgur.com/ZtL0zpa.png" /></div>
+                            </div>
+                        : null}
+                    </div>
+                    <div className="art-child">
+                        <img src="https://i.imgur.com/0z7UnnE.png"/>
+                        <h3>orchid</h3>
+                        <h4>iPencil + Procreate</h4>
+                        {!seeMoreOrchid ?
+                            <button onClick={seeMoreOrchidFunction}>See more</button>
+                            : <button onClick={seeMoreOrchidFunction}>See less</button>}
+                        {seeMoreOrchid ?
+                            <div className='product-images'>
+                                <div className='product-images-child'><img src= "https://i.imgur.com/hrGRi7G.png"/></div>
+                                <div className='product-images-child'><img src= "https://i.imgur.com/kOjkIg3.png"/></div>
+                                <div className='product-images-child'><img src="https://i.imgur.com/UW6bSBK.png" /></div>
+                            </div>
+                        : null}
+                    </div>
+                    <div className="art-child">
+                        <img src="https://i.imgur.com/sV9H0oP.jpg"/>
+                        <h3>Saguaro</h3>
+                        <h4>Marker + paper</h4>
+                        {!seeMoreSaguaro ?
+                            <button onClick={seeMoreSaguaroFunction}>See more</button>
+                            : <button onClick={seeMoreSaguaroFunction}>See less</button>}
+                        {seeMoreSaguaro ?
+                            <div className='product-images'>
+                                <div className='product-images-child'><img src= "https://i.imgur.com/eaPi7My.png"/></div>
+                                <div className='product-images-child'><img src= "https://i.imgur.com/THYCkoh.png"/></div>
+                                <div className='product-images-child'><img src="https://i.imgur.com/HDxamlM.png" /></div>
+                            </div>
+                        : null}
+                    </div>
+                    <div className="art-child">
                         <img src="https://i.imgur.com/MKagIry.png"/>
                         <h3>serprise</h3>
                         <h4>iPencil + Procreate</h4>
@@ -234,6 +204,36 @@ function ArtPortfolio() {
                                 <div className='product-images-child'><img src= "https://i.imgur.com/vs6n9jH.png"/></div>
                                 <div className='product-images-child'><img src= "https://i.imgur.com/5mUJcG2.png"/></div>
                                 <div className='product-images-child'><img src="https://i.imgur.com/RkicMyx.png" /></div>
+                            </div>
+                        : null}
+                    </div>
+                    <div className="art-child">
+                        <img src="https://i.imgur.com/Qmsgs2i.jpg"/>
+                        <h3>azalea</h3>
+                        <h4>iPencil + Procreate</h4>
+                        {!seeMoreAzalea ?
+                            <button onClick={seeMoreAzaleaFunction}>See more</button>
+                            : <button onClick={seeMoreAzaleaFunction}>See less</button>}
+                        {seeMoreAzalea ?
+                            <div className='product-images'>
+                                <div className='product-images-child'><img src= "https://i.imgur.com/VpLY4Cs.png"/></div>
+                                <div className='product-images-child'><img src= "https://i.imgur.com/XrSZJwQ.png"/></div>
+                                <div className='product-images-child'><img src="https://i.imgur.com/Z3Z4Svr.png" /></div>
+                            </div>
+                        : null}
+                    </div>
+                        <div className="art-child">
+                        <img src="https://i.imgur.com/cX8H8rS.jpg"/>
+                        <h3>retusa</h3>
+                        <h4>Marker + paper</h4>
+                        {!seeMoreRetusa ?
+                            <button onClick={seeMoreRetusaFunction}>See more</button>
+                            : <button onClick={seeMoreRetusaFunction}>See less</button>}
+                        {seeMoreRetusa ?
+                            <div className='product-images'>
+                                <div className='product-images-child'><img src= "https://i.imgur.com/v9uJ91B.png"/></div>
+                                <div className='product-images-child'><img src= "https://i.imgur.com/oh0pFU7.png"/></div>
+                                <div className='product-images-child'><img src="https://i.imgur.com/9bUYq3w.png" /></div>
                             </div>
                         : null}
                     </div>
