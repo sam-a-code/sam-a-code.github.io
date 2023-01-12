@@ -385,6 +385,19 @@ li {
   min-width: 50%;
 }
 
+.slider-home {
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  min-width: 85%;
+  padding: 10px;
+}
+
+.slider-parent {
+  margin-bottom: 40px;
+}
+
 .slider img {
   min-width: 50%;
 }
