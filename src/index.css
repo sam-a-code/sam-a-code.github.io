@@ -382,7 +382,7 @@ li {
 }
 
 .art-child {
-  width: 350px;
+  width: 29%;
   /* height: 30px; */
   margin: 1%;
   border-radius: 3px;
@@ -412,14 +412,21 @@ li {
 }
 
 .product-images-child{
-  max-width: 25%;
+  max-width: 28%;
   transition: 1s ease;
 
 }
 
-.product-images-child:hover img {
-  transform: scale(3);
+.product-images-child img{
+ height: 50%;
+
 }
+
+.product-images-child:hover img {
+  transform: scale(2);
+  width: 100%;
+}
+
 
 .slider {
   align-content: center;
@@ -583,10 +590,6 @@ li {
     width: 100%;
     padding: 0;
     margin: 0;
-  }
-
-  .root {
-    width: 100%;
   }
 
 }
