@@ -20,7 +20,7 @@ function CodingPortfolio() {
                         <li>Wrote API functionality with Ruby on Rails, built the database schema, and used ActiveRecord + SQLite for DB logic.</li>
                         <li>Incorporated Email.js to allow users to send themselves guest and ingredient lists for party planning.</li>
                     </ul>
-                    <p className="project-list">Combine event background, Proud of styling, Lessons learned:</p>
+                    {/* <p className="project-list">Combine event background, Proud of styling, Lessons learned:</p> */}
                     <p className="project-list">Skills used for project: Ruby on Rails, React, CSS, Email.js, Authentication, Authorization, API, SQLite, ActiveRecord, Google Fonts</p>
                     <h4>Created: December 2022</h4>
                 </div>
@@ -35,7 +35,7 @@ function CodingPortfolio() {
                         <li>Created login functionality with authentication and authorization.</li>
                         <li>Used a combination of Mantine framework and CSS for UI, creating an eye-catching profile page and band cards.</li>
                     </ul>
-                    <p className="project-list">Concert tracking, First time using auth and auth, Lessons learned:</p>
+                    {/* <p className="project-list">Concert tracking, First time using auth and auth, Lessons learned:</p> */}
                     <p className="project-list">Skills used for project: Ruby on Rails, React, CSS, Authentication, Authorization, API, MVC framework, ActiveRecord, Mantine framework, Google Fonts</p>
                     <h4>Created: November 2022</h4>
                 </div>
@@ -52,7 +52,7 @@ function CodingPortfolio() {
                         <li>Added styling to support a strong visual identity – used CSS and an imported font to make app look like a handwritten notebook page.</li>
                         <li>Mapped through backend seed data, generating cards for every instance of appointments, students, and instructors.</li>
                     </ul>
-                    <p className="project-list">Thoughtful tool for users, Help people education, Lessons learned:</p>
+                    {/* <p className="project-list">Thoughtful tool for users, Help people education, Lessons learned:</p> */}
                     <p className="project-list">Skills used for project: Ruby, React, CSS, API, ActiveRecord, Google Fonts</p>
                     <h4>Created: November 2022</h4>
                 </div>
@@ -65,7 +65,7 @@ function CodingPortfolio() {
                         <li>Used React, CSS for styling, and implemented NavLink, ensuring site was compelling and easy to navigate.</li>
                         <li>Created a RESTful API for the backend, organizing book and resource information so it was easily accessible.</li>
                     </ul>
-                    <p className="project-list">Passion project, Use coding to share resources and ideas, Lessons learned:</p>
+                    {/* <p className="project-list">Passion project, Use coding to share resources and ideas, Lessons learned:</p> */}
                     <p className="project-list">Skills used for project: Ruby, React, CSS, API, ActiveRecord, Google Fonts</p>
                     <h4>Created: October 2022</h4>
                 </div>
@@ -78,7 +78,7 @@ function CodingPortfolio() {
                         <li>Used onClick</li>
                         <li>CSS for styling</li>
                     </ul>
-                    <p className="project-list">I love farmers markets and cooking, Eager to upgrade with better seasonal logic, Lessons learned:</p>
+                    {/* <p className="project-list">I love farmers markets and cooking, Eager to upgrade with better seasonal logic, Lessons learned:</p> */}
                     <p className="project-list">Skills used for project: HTML, CSS, JavaScript</p>
                     <h4>Created: October 2022</h4>
                 </div>
@@ -91,7 +91,7 @@ function CodingPortfolio() {
                         <li>Used React.js to build site</li>
                         <li>Used CSS, imported Google Fonts, and curated images to ensure my unique personality came through on site</li>
                     </ul>
-                    <p className="project-list">ADD, Lessons learned:</p>
+                    {/* <p className="project-list">ADD, Lessons learned:</p> */}
                     <p className="project-list">Skills used for project: React.js, CSS, JavaScript, AWS Amplify</p>
                     <h4>Created: January 2023</h4>
                 </div>
