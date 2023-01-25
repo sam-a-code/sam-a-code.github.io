@@ -38,19 +38,19 @@ function EducationCardContainer() {
                     <h3>Boston University</h3>
                     <h4>Masters of Science, Media Ventures</h4>
                     <h5>September 2014 - August 2015</h5>
-                    <p>Entrepreneurship, technology, and communications</p>
+                    {/* <p>Entrepreneurship, technology, and communications</p> */}
                 </div>
                 <div className="card-child">
                     <h3>Boston University</h3>
                     <h4>Bachelor of Arts, Psychology</h4>
                     <h5>September 2009 - January 2014</h5>
-                    <p>Psychology basics and description to be added</p>
+                    {/* <p>Psychology basics and description to be added</p> */}
                 </div>
                 <div className="card-child">
                     <h3>Flatiron Software Engineering Bootcamp</h3>
                     <h4>Certification in Software Engineering, Full Stack Software Engineering</h4>
                     <h5>August 2022 - December 2022</h5>
-                    <p>Add skills I learned and links to projects</p>
+                    {/* <p>Add skills I learned and links to projects</p> */}
                 </div>
 
             </div>
