@@ -192,7 +192,7 @@ li {
 
 .navbar-parent {
   margin-bottom: 0;
-  padding: 1rem 2rem 1rem 2rem;
+  /* padding: 1rem 2rem 1rem 2rem; */
   border-bottom: 1px dotted black;
   transition: 1s ease;
   position: fixed;
@@ -547,7 +547,6 @@ li {
    .section-header {
     font-size: 18px;
     width: 100%;
-    margin: 0;
    }
 
    body {
@@ -559,7 +558,8 @@ li {
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
+    margin: auto;
    }
 
    .card-child {

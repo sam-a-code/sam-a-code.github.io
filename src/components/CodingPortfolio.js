@@ -3,7 +3,7 @@
 function CodingPortfolio() {
     return (
         <>
-            <div className="coding-project-section">
+            <div>
             <h1 className="section-header">Coding Projects</h1>
             <div className="card-parent">
                 <div className="card-child">
