@@ -22,6 +22,7 @@ function Navbar() {
                 <Link className="navbar" to="/resume">Resume</Link>
                 <Link className="navbar" to="/coding-portfolio">Coding Portfolio</Link>
                 <Link className="navbar" to="/art-portfolio">Art Portfolio</Link>
+                <a className="navbar" href='https://www.linkedin.com/in/samanthajavery/' target="_blank">Contact</a>
             </div>
         { isHome(location) ?
         <div className='text-picture-background'>
