@@ -45,7 +45,7 @@ function ArtPortfolio() {
         infinite: true,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         autoplay: true,
         pauseOnHover: true,
       };
@@ -58,12 +58,24 @@ function ArtPortfolio() {
                     <h3 className='slider'>calathea</h3>
                 </div>
                 <div>
+                    <img className='slider' src="https://i.imgur.com/ANMqOzw.jpg"/>
+                    <h3 className='slider'>etna tank</h3>
+                </div>
+                <div>
                     <img className='slider' src="https://i.imgur.com/cX8H8rS.jpg"/>
                     <h3 className='slider'>retusa</h3>
                 </div>
                 <div>
+                    <img className='slider' src="https://i.imgur.com/PCf9UTG.jpg"/>
+                    <h3 className='slider'>allium crop tank</h3>
+                </div>
+                <div>
                     <img className='slider' src="https://i.imgur.com/sV9H0oP.jpg"/>
                     <h3 className='slider'>saguaro</h3>
+                </div>
+                <div>
+                    <img className='slider' src="https://i.imgur.com/kNYUk0Q.jpg"/>
+                    <h3 className='slider'>calathea leggings</h3>
                 </div>
                 <div>
                     <img className='slider' src="https://i.imgur.com/HyN6TW3.png"/>
@@ -74,6 +86,10 @@ function ArtPortfolio() {
                     <h3 className='slider'>azalea</h3>
                 </div>
                 <div>
+                    <img className='slider' src="https://i.imgur.com/6Hj5gCr.jpg"/>
+                    <h3 className='slider'>saguaro bodycon</h3>
+                </div>
+                <div>
                     <img className='slider' src="https://i.imgur.com/0z7UnnE.png?1"/>
                     <h3 className='slider'>orchid</h3>
                 </div>
@@ -82,12 +98,20 @@ function ArtPortfolio() {
                     <h3 className='slider'>hello, werld</h3>
                 </div>
                 <div>
+                    <img className='slider' src="https://i.imgur.com/WOGJMss.jpg"/>
+                    <h3 className='slider'>dudleya swimsuit</h3>
+                </div>
+                <div>
                     <img className='slider' src="https://i.imgur.com/KXhYLW1.png"/>
                     <h3 className='slider'>lil green guy</h3>
                 </div>
                 <div>
                     <img className='slider' src="https://i.imgur.com/6KC7aJl.png"/>
                     <h3 className='slider'>accent peace</h3>
+                </div>
+                <div>
+                    <img className='slider' src="https://i.imgur.com/HG9MASk.jpg"/>
+                    <h3 className='slider'>daisy crop tee</h3>
                 </div>
                 <div>
                     <img className='slider' src="https://i.imgur.com/MKagIry.png"/>

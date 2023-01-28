@@ -339,7 +339,7 @@ li {
 .title-image img{
   border-radius: 100px;
   margin-top: 0%;
-  margin-left: 4%;
+  margin-left: 5%;
   max-height: 90%;
 }
 
@@ -368,7 +368,7 @@ li {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
-  font-size: 70px;
+  font-size: 65px;
 }
 
 .title-1 {
@@ -392,14 +392,18 @@ li {
 
 
 /* resume page */
-/* .resume {
-  width: 100%;
-  height: 30%;
+/* comment back in if using embed for resume*/
+/* .embed-resume {
+  min-width: 60%;
+  min-height: 800px;
+  box-shadow: none !important;
+  margin: none;
+  padding: none;
 } */
 
 .resume img {
   width: 100%;
-  min-width: 350px;
+  min-width: 600px;
 }
 
 /* portfolio pages */
