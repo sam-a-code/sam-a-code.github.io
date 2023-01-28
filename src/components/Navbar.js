@@ -18,18 +18,25 @@ function Navbar() {
     return (
         <header >
             <div className="navbar-parent">
-                <Link className="navbar" to="/">Bio</Link>
-                <Link className="navbar" to="/resume">Resume</Link>
-                <Link className="navbar" to="/coding-portfolio">Coding Portfolio</Link>
-                <Link className="navbar" to="/art-portfolio">Art Portfolio</Link>
-                <a className="navbar" href='https://www.linkedin.com/in/samanthajavery/' target="_blank">Contact</a>
+                <Link className="navbar" to="/">bio</Link>
+                <Link className="navbar" to="/resume">resume</Link>
+                <Link className="navbar" to="/coding-portfolio">coding portfolio</Link>
+                <Link className="navbar" to="/art-portfolio">art portfolio</Link>
+                <a className="navbar" href='https://www.linkedin.com/in/samanthajavery/' target="_blank">contact</a>
             </div>
         { isHome(location) ?
-        <div className='text-picture-background'>
-            <h1 className='title-name'>SAMANTHA AVERY</h1>
-            <h2 className='title-subheader title-1'>Program manager</h2>
-            <h2 className='title-subheader title-2'>software engineer</h2>
-            <h2 className='title-subheader title-3'>artist</h2>
+            <div className='text-picture-background'>
+                <h1 className='title-name'>SAMANTHA AVERY</h1>
+            <div className='title-parent'>
+                <div className='title-image'>
+                    <img src='https://i.imgur.com/NpVzeox.jpg'/>
+                </div>
+                <div className='title-text'>
+                    <h2 className='title-subheader title-1'>program manager</h2>
+                    <h2 className='title-subheader title-2'>software engineer</h2>
+                    <h2 className='title-subheader title-3'>artist</h2>
+                </div>
+            </div>
         </div> :
         <div className='text-picture-background'>
             <h1 className='title-name'>SAMANTHA AVERY</h1>

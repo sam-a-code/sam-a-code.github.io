@@ -48,12 +48,11 @@ function ArtPortfolio() {
         slidesToScroll: 1,
         autoplay: true,
         pauseOnHover: true,
-
       };
 
     return (
         <>
-           <Slider {...settings}>
+           <Slider {...settings} className="art-slider">
                 <div>
                     <img className='slider' src="https://i.imgur.com/gExd9Ur.jpg"/>
                     <h3 className='slider'>calathea</h3>
