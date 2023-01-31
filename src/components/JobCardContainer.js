@@ -60,9 +60,9 @@ function JobCardContainer() {
                     { !viewStudio ? <button onClick={seeMoreStudio}>Read more about my responsibilities in this role</button> : <button onClick={seeMoreStudio}>Close</button>}
                     { viewStudio ?
                         <ul className="project-list">
-                            <li>Program managed the lifecycle of new class content and curriculum, implementing new classes on the consumer-facing Studio website using VS Code and ensuring cross-functional teams were aligned on deliverables throughout the process.</li>
-                            <li>Executed class launches, company rebranding, and new product initiatives with multiple engineering teams, the curriculum team, the marketing team, and the post-production team.</li>
-                            <li>Managed a freelance Quality Assurance associate. Conducted the hiring process, created software walkthrough documentation, used technical judgment for bug triage, and escalated issues to Engineering as needed.</li>
+                            <li>Program managed the implementation of new class content and curriculum on the Studio website, working cross-functionally to empower students to tackle new creative endeavors.</li>
+                            <li>Launched classes, supported company rebranding, and executed new product initiatives in collaboration with multiple engineering teams, the curriculum team, the marketing team, and the post-production team.</li>
+                            <li>Discovered, resolved and escalated bugs through QA process. Managed a Quality Assurance associate, created process documentation for QA, and tracked bug resolutions for historical knowledge.</li>
                         </ul>
                     : null }
                 </div>
@@ -75,9 +75,9 @@ function JobCardContainer() {
                     { !viewYT1 ? <button onClick={seeMoreYT1}>Read more about my responsibilities in this role</button> : <button onClick={seeMoreYT1}>Close</button>}
                     { viewYT1 ?
                         <ul className="project-list">
-                            <li>Program managed the e-learning tool used across YouTube Spaces globally, maintaining content and user processes.</li>
-                            <li>Managed a global group of 20+ subject matter experts to identify work problems and goals for Google’s event, e-learning, and finance tools.</li>
-                            <li>Led bi-weekly bug review and quarterly prioritization of feature requests and bugs, working with engineers to resolve tickets and improve user experiences for users at all YouTube Spaces. Conducted UAT for engineers as necessary.</li>
+                            <li>Program managed the e-learning tool used across YouTube Spaces globally, ensuring creators could access Spaces.</li>
+                            <li>Improved tool experiences for internal and external users by managing a group of 20+ subject matter experts on event and e-learning tools, leveraging team insights to enhance user journeys.</li>
+                            <li>Led a bi-weekly bug review, coordinated the quarterly prioritization of feature requests, worked with engineers to resolve tickets, and conducted UAT for tool updates.</li>
                             <li>Developed documentation for user roadmaps, tools training, FAQs, SOPs, onboarding, and institutional knowledge.</li>
                         </ul>
                     : null}
@@ -89,7 +89,7 @@ function JobCardContainer() {
                     { !viewYT2 ? <button onClick={seeMoreYT2}>Read more about my responsibilities in this role</button> : <button onClick={seeMoreYT2}>Close</button>}
                     {viewYT2 ?
                         <ul className="project-list">
-                            <li>Executed multiple processes and workflows for approx. 10 - 15 events per month at YouTube Space LA.</li>
+                            <li>Executed registration, security, and check in processes for approx. 10 - 15 events per month at YouTube Space LA.</li>
                             <li>Trained team on internal tools and processes, product updates, and security procedures to protect attendee data.</li>
                             <li>Analyzed data, maintained data integrity, led data clean-up initiatives, and leveraged analytic insights to improve events.</li>
                         </ul>
@@ -120,7 +120,7 @@ function JobCardContainer() {
                     {viewTHS ?
                         <ul className="project-list">
                             <li>Orchestrated the volunteer program for this social impact conference, spearheaded communications, training sessions, and placements for 30+ volunteers.</li>
-                            <li>Supervised multiple workflows and check-in stations for 200+ attendees, speakers, and press.</li>
+                            <li>Supervised multiple registration and check-in stations for 200+ attendees, speakers, press, VIPs, and vendors.</li>
                             <li>Project managed on-site operations of volunteers and vendors.</li>
                         </ul>
                     : null }

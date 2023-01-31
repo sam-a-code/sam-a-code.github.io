@@ -10,7 +10,6 @@ function Resume() {
                 <iframe loading="lazy" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFXNcbPIjU&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen" className='embed-resume' >
                 </iframe>
             </div> */}
-
             {/* <div>
                 <iframe loading="lazy" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFY_FgO4LM&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
                 </iframe>
