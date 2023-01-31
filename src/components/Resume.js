@@ -5,7 +5,7 @@ function Resume() {
     return (
         <div className="resume">
             {/* <img src="https://i.imgur.com/VSS9OdX.png"/> */}
-            <img src="https://i.imgur.com/u9ULgXl.png"/>
+            <img src="https://i.imgur.com/Zd69CAg.png"/>
             {/* <div >
                 <iframe loading="lazy" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFXNcbPIjU&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen" className='embed-resume' >
                 </iframe>

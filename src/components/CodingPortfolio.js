@@ -62,7 +62,7 @@ function CodingPortfolio() {
                     <h4>A resource for sharing information about book deserts and organizations that are working to change them.</h4>
                     <a href="https://github.com/sam-a-code/book-desert-project-II" target="_blank" className="card-child-link-text">Github link</a>
                     <ul className="project-list">
-                        <li>Used React, CSS for styling, and implemented NavLink, ensuring site was compelling and easy to navigate.</li>
+                        <li>Built project with React.js, used CSS for styling, and implemented NavLink, ensuring site was compelling and easy to navigate.</li>
                         <li>Created a RESTful API for the backend, organizing book and resource information so it was easily accessible.</li>
                     </ul>
                     {/* <p className="project-list">Passion project, Use coding to share resources and ideas, Lessons learned:</p> */}
@@ -75,8 +75,8 @@ function CodingPortfolio() {
                     <h4>A resource for finding recipes inspired by seasonal items from the farmers market.</h4>
                     <a href="https://github.com/sam-a-code/farmers-market-recipe-finder" target="_blank" className="card-child-link-text">Github link</a>
                     <ul className="project-list">
-                        <li>Used onClick</li>
-                        <li>CSS for styling</li>
+                        <li>Used onClick to allow users to view seasonal item inspiration and to trigger the API call.</li>
+                        <li>Implemented CSS styling to make the site feel inviting, fun, and easy to use.</li>
                     </ul>
                     {/* <p className="project-list">I love farmers markets and cooking, Eager to upgrade with better seasonal logic, Lessons learned:</p> */}
                     <p className="project-list">Skills used for project: HTML, CSS, JavaScript</p>
@@ -88,8 +88,8 @@ function CodingPortfolio() {
                     <h4>My professional website – containing my work history, coding portfolio, and art portfolio.</h4>
                     <a href="https://github.com/sam-a-code/sam-a-code.github.io" target="_blank" className="card-child-link-text">Github link</a>
                     <ul className="project-list">
-                        <li>Used React.js to build site</li>
-                        <li>Used CSS, imported Google Fonts, and curated images to ensure my unique personality came through on site</li>
+                        <li>Used React.js to build site and AWS Amplify to host it.</li>
+                        <li>Wrote CSS, imported Google Fonts, and curated images to ensure my unique personality came through on every page.</li>
                     </ul>
                     {/* <p className="project-list">ADD, Lessons learned:</p> */}
                     <p className="project-list">Skills used for project: React.js, CSS, JavaScript, AWS Amplify</p>
