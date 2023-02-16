@@ -52,7 +52,7 @@ function JobCardContainer() {
             <h1 className="section-header">Work History</h1>
             <div className="job-card-parent">
                 <div className="job-card-child">
-                    <img src="https://studio.com/logos/studio_logo_black.png"/>
+                    <img src="https://i.imgur.com/Aka9SbV.png"/>
                     <h3>Operations Associate</h3>
                     <a href="https://studio.com" target="_blank" className="card-child-link-text">Studio</a>
                     <h4>Remote</h4>
