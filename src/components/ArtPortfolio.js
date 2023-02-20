@@ -54,71 +54,71 @@ function ArtPortfolio() {
         <>
            <Slider {...settings} className="art-slider">
                 <div>
-                    <img className='slider' src="https://i.imgur.com/gExd9Ur.jpg"/>
+                    <img alt="black and white swirled pattern drawn by Sam" className='slider' src="https://i.imgur.com/gExd9Ur.jpg"/>
                     <h3 className='slider'>calathea</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/ANMqOzw.jpg"/>
+                    <img alt="purple geometric pattern printed on a cropped tank and worn by Sam" className='slider' src="https://i.imgur.com/ANMqOzw.jpg"/>
                     <h3 className='slider'>etna tank</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/cX8H8rS.jpg"/>
+                    <img alt="neon swirled pattern" className='slider' src="https://i.imgur.com/cX8H8rS.jpg"/>
                     <h3 className='slider'>retusa</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/PCf9UTG.jpg"/>
+                    <img alt="black and white swirled pattern on cropped tank" className='slider' src="https://i.imgur.com/PCf9UTG.jpg"/>
                     <h3 className='slider'>allium crop tank</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/sV9H0oP.jpg"/>
+                    <img alt="brightly colored geometric pattern on a black background" className='slider' src="https://i.imgur.com/sV9H0oP.jpg"/>
                     <h3 className='slider'>saguaro</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/kNYUk0Q.jpg"/>
+                    <img alt="black and white swirled pattern on cropped leggings" className='slider' src="https://i.imgur.com/kNYUk0Q.jpg"/>
                     <h3 className='slider'>calathea leggings</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/HyN6TW3.png"/>
+                    <img alt="pastel layered pattern" className='slider' src="https://i.imgur.com/HyN6TW3.png"/>
                     <h3 className='slider'>zinnia</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/Qmsgs2i.jpg"/>
+                    <img alt="light pink floral pattern" className='slider' src="https://i.imgur.com/Qmsgs2i.jpg"/>
                     <h3 className='slider'>azalea</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/6Hj5gCr.jpg"/>
+                    <img alt="brightly colored geometric pattern on a black background on a bodycon dress worn by Sam" className='slider' src="https://i.imgur.com/6Hj5gCr.jpg"/>
                     <h3 className='slider'>saguaro bodycon</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/0z7UnnE.png?1"/>
+                    <img alt="orange, pink, and black layered pattern" className='slider' src="https://i.imgur.com/0z7UnnE.png?1"/>
                     <h3 className='slider'>orchid</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/Gie3Lay.png"/>
+                    <img alt="abstract drawing of the world with pink and blue layers" className='slider' src="https://i.imgur.com/Gie3Lay.png"/>
                     <h3 className='slider'>hello, werld</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/WOGJMss.jpg"/>
+                    <img alt="pink and green baroque pattern on a one piece swimsuit worn by Sam" className='slider' src="https://i.imgur.com/WOGJMss.jpg"/>
                     <h3 className='slider'>dudleya swimsuit</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/KXhYLW1.png"/>
+                    <img alt="green layers of abstract shapes" className='slider' src="https://i.imgur.com/KXhYLW1.png"/>
                     <h3 className='slider'>lil green guy</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/6KC7aJl.png"/>
-                    <h3 className='slider'>accent peace</h3>
+                    <img alt="black abstract pattern" className='slider' src="https://i.imgur.com/6KC7aJl.png"/>
+                    <h3 className='slider'>firework</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/HG9MASk.jpg"/>
+                    <img alt="green floral pattern on a cropped tee modeled by Sam" className='slider' src="https://i.imgur.com/HG9MASk.jpg"/>
                     <h3 className='slider'>daisy crop tee</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/MKagIry.png"/>
+                    <img alt="elongated vertical shape in pink" className='slider' src="https://i.imgur.com/MKagIry.png"/>
                     <h3 className='slider'>serprise</h3>
                 </div>
                 <div>
-                    <img className='slider' src="https://i.imgur.com/jn4YXdF.png"/>
+                    <img alt="simple abstract shape filled with polka dots" className='slider' src="https://i.imgur.com/jn4YXdF.png"/>
                     <h3 className='slider'>lil jelly guy</h3>
                 </div>
             </Slider>
