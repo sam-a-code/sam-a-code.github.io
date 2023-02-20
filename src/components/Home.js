@@ -8,9 +8,9 @@ function Home() {
     return (
         <>
             <Bio />
+            <HomePageProjects />
             <JobCardContainer />
             <EducationCardContainer />
-            <HomePageProjects />
         </>
 
     );
