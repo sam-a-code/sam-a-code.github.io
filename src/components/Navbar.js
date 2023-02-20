@@ -26,7 +26,7 @@ function Navbar() {
             </div>
         { isHome(location) ?
             <div className='text-picture-background'>
-                <h1 className='title-name'>SAMANTHA AVERY</h1>
+                <a href="https://www.samantha-avery.com/"><h1 className='title-name'>SAMANTHA AVERY</h1></a>
             <div className='title-parent'>
                 <div className='title-image'>
                     <img src='https://i.imgur.com/NpVzeox.jpg'/>
@@ -39,7 +39,7 @@ function Navbar() {
             </div>
         </div> :
         <div className='text-picture-background'>
-            <h1 className='title-name'>SAMANTHA AVERY</h1>
+            <a href="https://www.samantha-avery.com/"><h1 className='title-name'>SAMANTHA AVERY</h1></a>
         </div>
         }
       </header>
