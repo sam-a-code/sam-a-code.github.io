@@ -29,7 +29,7 @@ function Navbar() {
                 <a href="https://www.samantha-avery.com/"><h1 className='title-name'>SAMANTHA AVERY</h1></a>
             <div className='title-parent'>
                 <div className='title-image'>
-                    <img src='https://i.imgur.com/NpVzeox.jpg'/>
+                    <img src='https://i.imgur.com/NpVzeox.jpg' alt="Sam's headshot. She's laughing and wearing floral overalls in front of a blue background"/>
                 </div>
                 <div className='title-text'>
                     <h2 className='title-subheader title-1'>program manager</h2>
