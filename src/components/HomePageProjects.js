@@ -49,27 +49,27 @@ function HomePageProjects() {
             <h1 className="section-header">Highlights</h1>
             <Slider {...settings} className="slider-parent">
                 <div>
-                    <img className='slider-home' src="https://i.imgur.com/hAJVs9N.png"/>
+                    <img className='slider-home' src="https://i.imgur.com/hAJVs9N.png" alt="a screenshot of the homepage of Sam's dinner party app, WeAte."/>
                     <h3 className='slider-home'>WeAte.</h3>
                     <h5>A dinner party planning app.</h5>
                 </div>
                 <div>
-                    <img className='slider-home' src="https://i.imgur.com/aVyRJoK.png"/>
+                    <img className='slider-home' src="https://i.imgur.com/aVyRJoK.png" alt="a screenshot of the homepage of Sam's Groovehound app"/>
                     <h3 className='slider-home'>Groovehound</h3>
                     <h5>A concert tracking app.</h5>
                 </div>
                 <div>
-                    <img className='slider-home' src="https://i.imgur.com/ERQenE8.png"/>
+                    <img className='slider-home' src="https://i.imgur.com/ERQenE8.png" alt="a screenshot of the homepage of Sam's tutoring scheduler app"/>
                     <h3 className='slider-home'>Tutoring Scheduler</h3>
                     <h5>A tutor appointment scheduling app.</h5>
                 </div>
                 <div>
-                    <img className='slider-home' src="https://i.imgur.com/4xDejlO.png"/>
+                    <img className='slider-home' src="https://i.imgur.com/4xDejlO.png" alt="a screenshot of the homepage of Sam's book desert app"/>
                     <h3 className='slider-home'>Book Desert Resources</h3>
                     <h5>An app to spread awareness about book deserts.</h5>
                 </div>
                 <div>
-                    <img className='slider-home' src="https://i.imgur.com/dtYFFGo.png"/>
+                    <img className='slider-home' src="https://i.imgur.com/dtYFFGo.png" alt="a screenshot of the homepage of Sam's farmers market recipe finder app"/>
                     <h3 className='slider-home'>Farmers Market Recipe Finder</h3>
                     <h5>A recipe-finder app, inspired by seasonal produce.</h5>
                 </div>
