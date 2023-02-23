@@ -52,7 +52,7 @@ function JobCardContainer() {
             <h1 className="section-header">Work History</h1>
             <div className="job-card-parent">
                 <div className="job-card-child">
-                    <img src="https://i.imgur.com/Aka9SbV.png"/>
+                    <img src="https://i.imgur.com/Aka9SbV.png" alt="studio logo"/>
                     <h3>Operations Associate</h3>
                     <a href="https://studio.com" target="_blank" className="card-child-link-text">Studio</a>
                     <h4>Remote</h4>
@@ -67,7 +67,7 @@ function JobCardContainer() {
                     : null }
                 </div>
                 <div className="job-card-child">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png"/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png" alt="youtube logo"/>
                     <h3>Operations Specialist</h3>
                     <a href="https://youtube.com" target="_blank" className="card-child-link-text">YouTube</a>
                     <h4>Los Angeles</h4>
@@ -111,7 +111,7 @@ function JobCardContainer() {
                     : null }
                 </div> */}
                 <div className="job-card-child">
-                    <img src="https://www.theheartseries.com/wp-content/uploads/2016/05/Screen-Shot-2016-05-12-at-2.14.47-PM.png"/>
+                    <img src="https://www.theheartseries.com/wp-content/uploads/2016/05/Screen-Shot-2016-05-12-at-2.14.47-PM.png" alt="the heart series logo"/>
                     <h3>Program Manager</h3>
                     <a href="https://theheartseries.com" target="_blank" className="card-child-link-text">The Heart Series</a>
                     <h4>Los Angeles</h4>
