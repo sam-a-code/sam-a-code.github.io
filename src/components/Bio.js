@@ -13,10 +13,10 @@ function Bio() {
                     {/* <p>I believe it's important to leave our campsites cleaner than we found them (I could not be less outdoorsy, but I do love the sentiment). I love being the person that my friends text for restuarant recommendations, and my restaurant spreadsheet is always updated.</p> */}
                     {/* <p>The projects on which I've worked have almost all been dedicated to creating, empowering, and promoting creative communities. As I've progressed in my career, I've taken on more ownership of managing programs. After a few years getting closer to the technical side of program management, I decided to take the leap in to Software Engineering.</p> */}
                 </div>
-                <img src='https://i.imgur.com/aVT48B4.jpg' className='bio-child'/>
+                <img src='https://i.imgur.com/aVT48B4.jpg' alt="Sam's headshot, wearing a dark green dress in front of a wall of greenery" className='bio-child'/>
             </div>
             <div className='bio-parent'>
-                <img src='https://i.imgur.com/KXhYLW1.png' className='bio-child'/>
+                <img src='https://i.imgur.com/KXhYLW1.png' alt="green layers of abstract shapes" className='bio-child'/>
                 <div className='bio-child'>
                     <h2>What I do</h2>
                     <p>Currently, what I'm doing is looking for a job! The roles in which I'm most interested are: Program Manager, Product Manager, or Software Developer.</p>
@@ -34,7 +34,7 @@ function Bio() {
                     <p>I'm eager to implement my new software engineering skills wherever I can. The ability to build new features, improve user journeys from a process and UX perspective, and to continue improving my technical expertise makes me really excited for whatever comes next.</p>
 
                     </div>
-                    <img src='https://i.imgur.com/hAJVs9N.png' className='bio-child'/>
+                    <img src='https://i.imgur.com/hAJVs9N.png' alt="a screenshot of the homepage of Sam's dinner party app" className='bio-child'/>
             </div>
         </div>
 
