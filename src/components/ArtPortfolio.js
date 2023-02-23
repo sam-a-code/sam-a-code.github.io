@@ -126,7 +126,7 @@ function ArtPortfolio() {
                 <h1 className="section-header">Art + Designs</h1>
                 <div className="art-parent">
                     <div className="art-child">
-                        <img src="https://i.imgur.com/HyN6TW3.png"/>
+                        <img alt="pastel layered pattern" src="https://i.imgur.com/HyN6TW3.png"/>
                         <h3>Zinnia</h3>
                         <h4>iPencil + Procreate</h4>
                         {!seeMoreZinnia ?
@@ -134,14 +134,14 @@ function ArtPortfolio() {
                             : <button onClick={seeMoreZinniaFunction}>See less</button>}
                         {seeMoreZinnia ?
                             <div className='product-images'>
-                                <div className='product-images-child'><img src="https://i.imgur.com/u4RriFn.png" /></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/XkJkVCF.png" /></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/RWsXZe2.png" /></div>
+                                <div className='product-images-child'><img alt="pastel layered pattern printed on the back of a white tee" src="https://i.imgur.com/u4RriFn.png" /></div>
+                                <div className='product-images-child'><img alt="pastel layered pattern printed on the back of a pink hoodie" src="https://i.imgur.com/XkJkVCF.png" /></div>
+                                <div className='product-images-child'><img alt="pastel layered pattern printed repeatedly on a tank top" src="https://i.imgur.com/RWsXZe2.png" /></div>
                             </div>
                         : null}
                     </div>
                     <div className="art-child">
-                        <img src="https://i.imgur.com/Gie3Lay.png"/>
+                        <img alt="abstract drawing of the world with pink and blue layers" src="https://i.imgur.com/Gie3Lay.png"/>
                         <h3>hello, werld</h3>
                         <h4>iPencil + Procreate</h4>
                         {!seeMoreHW ?
@@ -149,14 +149,14 @@ function ArtPortfolio() {
                             : <button onClick={seeMoreHWFunction}>See less</button>}
                         {seeMoreHW ?
                             <div className='product-images'>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/NHLMicF.png"/></div>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/IZs20jM.png"/></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/LqyovQz.png" /></div>
+                                <div className='product-images-child'><img alt="abstract drawing of the world with pink and blue layers on a black tshirt dress" src="https://i.imgur.com/NHLMicF.png"/></div>
+                                <div className='product-images-child'><img alt="abstract drawing of the world with pink and blue layers on black slipon sneakers" src="https://i.imgur.com/IZs20jM.png"/></div>
+                                <div className='product-images-child'><img alt="abstract drawing of the world with pink and blue layers, printed on the bottom left of black shorts" src="https://i.imgur.com/LqyovQz.png" /></div>
                             </div>
                         : null}
                     </div>
                     <div className="art-child">
-                        <img src="https://i.imgur.com/KXhYLW1.png"/>
+                        <img alt="green layers of abstract shapes" src="https://i.imgur.com/KXhYLW1.png"/>
                         <h3>lil green guy</h3>
                         <h4>iPencil + Procreate</h4>
                         {!seeMoreGG ?
@@ -164,14 +164,14 @@ function ArtPortfolio() {
                             : <button onClick={seeMoreGGFunction}>See less</button>}
                         {seeMoreGG ?
                             <div className='product-images'>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/gcfmVoK.png"/></div>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/YdOgcAH.png"/></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/uzrfKfO.png" /></div>
+                                <div className='product-images-child'><img alt="green layers of abstract shapes printed on a black tote bag" src="https://i.imgur.com/gcfmVoK.png"/></div>
+                                <div className='product-images-child'><img alt="green layers of abstract shapes printed on a tshirt dress" src="https://i.imgur.com/YdOgcAH.png"/></div>
+                                <div className='product-images-child'><img alt="green layers of abstract shapes printed on the back of a black long sleeve shirt" src="https://i.imgur.com/uzrfKfO.png" /></div>
                             </div>
                         : null}
                     </div>
                     <div className="art-child">
-                        <img src="https://i.imgur.com/gExd9Ur.jpg"/>
+                        <img alt="black and white swirled pattern" src="https://i.imgur.com/gExd9Ur.jpg"/>
                         <h3>Calathea</h3>
                         <h4>Marker + paper</h4>
                         {!seeMoreCalathea ?
@@ -179,14 +179,14 @@ function ArtPortfolio() {
                             : <button onClick={seeMoreCalatheaFunction}>See less</button>}
                         {seeMoreCalathea ?
                             <div className='product-images'>
-                                <div className='product-images-child'><img src="https://i.imgur.com/uND1oCX.png" /></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/F1fPuOY.png" /></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/ZtL0zpa.png" /></div>
+                                <div className='product-images-child'><img alt="black and white swirled pattern printed repeatedly on a crop top" src="https://i.imgur.com/uND1oCX.png" /></div>
+                                <div className='product-images-child'><img alt="black and white swirled pattern printed on the back of a black hoodie" src="https://i.imgur.com/F1fPuOY.png" /></div>
+                                <div className='product-images-child'><img alt="black and white swirled pattern printed repeatedly on capri leggings" src="https://i.imgur.com/ZtL0zpa.png" /></div>
                             </div>
                         : null}
                     </div>
                     <div className="art-child">
-                        <img src="https://i.imgur.com/0z7UnnE.png"/>
+                        <img alt="orange, pink, and black layered pattern" src="https://i.imgur.com/0z7UnnE.png"/>
                         <h3>orchid</h3>
                         <h4>iPencil + Procreate</h4>
                         {!seeMoreOrchid ?
@@ -194,14 +194,14 @@ function ArtPortfolio() {
                             : <button onClick={seeMoreOrchidFunction}>See less</button>}
                         {seeMoreOrchid ?
                             <div className='product-images'>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/hrGRi7G.png"/></div>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/kOjkIg3.png"/></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/UW6bSBK.png" /></div>
+                                <div className='product-images-child'><img alt="orange, pink, and black layered pattern printed on the back of a black hoodie" src="https://i.imgur.com/hrGRi7G.png"/></div>
+                                <div className='product-images-child'><img alt="orange, pink, and black layered pattern printed on the back of a white long sleeve shirt" src="https://i.imgur.com/kOjkIg3.png"/></div>
+                                <div className='product-images-child'><img alt="orange, pink, and black layered pattern printed repeatedly on yoga shorts" src="https://i.imgur.com/UW6bSBK.png" /></div>
                             </div>
                         : null}
                     </div>
                     <div className="art-child">
-                        <img src="https://i.imgur.com/sV9H0oP.jpg"/>
+                        <img alt="brightly colored geometric pattern on a black background" src="https://i.imgur.com/sV9H0oP.jpg"/>
                         <h3>Saguaro</h3>
                         <h4>Marker + paper</h4>
                         {!seeMoreSaguaro ?
@@ -209,14 +209,14 @@ function ArtPortfolio() {
                             : <button onClick={seeMoreSaguaroFunction}>See less</button>}
                         {seeMoreSaguaro ?
                             <div className='product-images'>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/eaPi7My.png"/></div>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/THYCkoh.png"/></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/HDxamlM.png" /></div>
+                                <div className='product-images-child'><img alt="brightly colored geometric pattern on a black background printed all over a fanny pack" src="https://i.imgur.com/eaPi7My.png"/></div>
+                                <div className='product-images-child'><img alt="brightly colored geometric pattern on a black background printed on a tank" src="https://i.imgur.com/THYCkoh.png"/></div>
+                                <div className='product-images-child'><img alt="brightly colored geometric pattern on a black background printed on capri leggings" src="https://i.imgur.com/HDxamlM.png" /></div>
                             </div>
                         : null}
                     </div>
                     <div className="art-child">
-                        <img src="https://i.imgur.com/MKagIry.png"/>
+                        <img alt="elongated vertical shape in pink" src="https://i.imgur.com/MKagIry.png"/>
                         <h3>serprise</h3>
                         <h4>iPencil + Procreate</h4>
                         {!seeMoreSerprise ?
@@ -224,14 +224,14 @@ function ArtPortfolio() {
                             : <button onClick={seeMoreSerpriseFunction}>See less</button>}
                         {seeMoreSerprise ?
                             <div className='product-images'>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/vs6n9jH.png"/></div>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/5mUJcG2.png"/></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/RkicMyx.png" /></div>
+                                <div className='product-images-child'><img alt="elongated vertical shape in pink on a white tee" src="https://i.imgur.com/vs6n9jH.png"/></div>
+                                <div className='product-images-child'><img alt="elongated vertical shape in pink, printed on the bottom left corner of black shorts" src="https://i.imgur.com/5mUJcG2.png"/></div>
+                                <div className='product-images-child'><img alt="elongated vertical shape in pink printed on the back of a black crop top" src="https://i.imgur.com/RkicMyx.png" /></div>
                             </div>
                         : null}
                     </div>
                     <div className="art-child">
-                        <img src="https://i.imgur.com/Qmsgs2i.jpg"/>
+                        <img alt="light pink floral pattern" src="https://i.imgur.com/Qmsgs2i.jpg"/>
                         <h3>azalea</h3>
                         <h4>iPencil + Procreate</h4>
                         {!seeMoreAzalea ?
@@ -239,14 +239,14 @@ function ArtPortfolio() {
                             : <button onClick={seeMoreAzaleaFunction}>See less</button>}
                         {seeMoreAzalea ?
                             <div className='product-images'>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/VpLY4Cs.png"/></div>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/XrSZJwQ.png"/></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/Z3Z4Svr.png" /></div>
+                                <div className='product-images-child'><img alt="light pink floral pattern in a square on the back of a black tshirt" src="https://i.imgur.com/VpLY4Cs.png"/></div>
+                                <div className='product-images-child'><img alt="light pink floral pattern repeated over a crop top" src="https://i.imgur.com/XrSZJwQ.png"/></div>
+                                <div className='product-images-child'><img alt="light pink floral pattern repeated over a tank top" src="https://i.imgur.com/Z3Z4Svr.png" /></div>
                             </div>
                         : null}
                     </div>
                         <div className="art-child">
-                        <img src="https://i.imgur.com/cX8H8rS.jpg"/>
+                        <img alt="neon swirled pattern" src="https://i.imgur.com/cX8H8rS.jpg"/>
                         <h3>retusa</h3>
                         <h4>Marker + paper</h4>
                         {!seeMoreRetusa ?
@@ -254,9 +254,9 @@ function ArtPortfolio() {
                             : <button onClick={seeMoreRetusaFunction}>See less</button>}
                         {seeMoreRetusa ?
                             <div className='product-images'>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/v9uJ91B.png"/></div>
-                                <div className='product-images-child'><img src= "https://i.imgur.com/oh0pFU7.png"/></div>
-                                <div className='product-images-child'><img src="https://i.imgur.com/9bUYq3w.png" /></div>
+                                <div className='product-images-child'><img alt="neon swirled pattern on a white pullover sweatshirt" src="https://i.imgur.com/v9uJ91B.png"/></div>
+                                <div className='product-images-child'><img alt="neon swirled pattern repeated all over a tshirt dress" src="https://i.imgur.com/oh0pFU7.png"/></div>
+                                <div className='product-images-child'><img alt="neon swirled pattern on a spiral notebook" src="https://i.imgur.com/9bUYq3w.png" /></div>
                             </div>
                         : null}
                     </div>
