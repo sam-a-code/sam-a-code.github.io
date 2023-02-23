@@ -7,7 +7,7 @@ function CodingPortfolio() {
             <h1 className="section-header">Coding Projects</h1>
             <div className="card-parent">
                 <div className="card-child">
-                    <img src="https://i.imgur.com/hAJVs9N.png"/>
+                    <img src="https://i.imgur.com/hAJVs9N.png" alt="a screenshot of the homepage of Sam's dinner party app, WeAte."/>
                     <h3>WeAte.</h3>
                     <h4>A dinner party planner built with React + styled with CSS</h4>
                     <div><iframe src="https://www.loom.com/embed/33c3cf49e8eb448da5f20883f8468d70" target="_blank" className="loom-demo">Watch the demo</iframe><br></br></div>
@@ -25,7 +25,7 @@ function CodingPortfolio() {
                     <h4>Created: December 2022</h4>
                 </div>
                 <div className="card-child">
-                    <img src="https://i.imgur.com/aVyRJoK.png"/>
+                    <img src="https://i.imgur.com/aVyRJoK.png" alt="a screenshot of the homepage of Sam's Groovehound app"/>
                     <h3>Groovehound</h3>
                     <h4>An app to track previous concert attendance and find upcoming concerts</h4>
                     <div><iframe src="https://www.loom.com/embed/b3036ee331a343f086f02f50b42d3347" target="_blank" className="loom-demo">Watch the demo</iframe><br></br></div>
@@ -40,7 +40,7 @@ function CodingPortfolio() {
                     <h4>Created: November 2022</h4>
                 </div>
                 <div className="card-child">
-                    <img src="https://i.imgur.com/ERQenE8.png"/>
+                    <img src="https://i.imgur.com/ERQenE8.png" alt="a screenshot of the homepage of Sam's tutoring appointment app"/>
                     <h3>Tutoring Scheduler</h3>
                     <h4>Created an app for students to schedule time with tutors using React and Ruby.</h4>
                     <div><iframe src="https://www.loom.com/embed/6355b4193828459caa35f03535096ef4" target="_blank" className="loom-demo">Watch the demo</iframe><br></br></div>
@@ -57,7 +57,7 @@ function CodingPortfolio() {
                     <h4>Created: November 2022</h4>
                 </div>
                 <div className="card-child">
-                    <img src="https://i.imgur.com/4xDejlO.png"/>
+                    <img src="https://i.imgur.com/4xDejlO.png" alt="a screenshot of the homepage of Sam's book deserts app"/>
                     <h3>Book Deserts</h3>
                     <h4>A resource for sharing information about book deserts and organizations that are working to change them.</h4>
                     <a href="https://github.com/sam-a-code/book-desert-project-II" target="_blank" className="card-child-link-text">Github link</a>
@@ -70,7 +70,7 @@ function CodingPortfolio() {
                     <h4>Created: October 2022</h4>
                 </div>
                 <div className="card-child">
-                    <img src="https://i.imgur.com/dtYFFGo.png"/>
+                    <img src="https://i.imgur.com/dtYFFGo.png" alt="a screenshot of the homepage of Sam's farmers market seasonal recipes app"/>
                     <h3>Farmers Market Recipe Finder</h3>
                     <h4>A resource for finding recipes inspired by seasonal items from the farmers market.</h4>
                     <a href="https://github.com/sam-a-code/farmers-market-recipe-finder" target="_blank" className="card-child-link-text">Github link</a>
@@ -83,7 +83,7 @@ function CodingPortfolio() {
                     <h4>Created: October 2022</h4>
                 </div>
                 <div className="card-child">
-                    <img src="https://i.imgur.com/UwdiDUn.png"/>
+                    <img src="https://i.imgur.com/UwdiDUn.png" alt="a screenshot of the homepage of Sam's personal portfolio site (this one!)"/>
                     <h3>Portfolio Website (what you're looking at right now!)</h3>
                     <h4>My professional website – containing my work history, coding portfolio, and art portfolio.</h4>
                     <a href="https://github.com/sam-a-code/sam-a-code.github.io" target="_blank" className="card-child-link-text">Github link</a>
