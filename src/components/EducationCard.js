@@ -1,3 +1,5 @@
+//not currently in use 
+
 function EducationCard({school, degree, program, description, startDate, endDate}) {
     return (
         <div className="card-child">

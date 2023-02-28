@@ -3,6 +3,7 @@ import Slider from "react-slick";
 
 function ArtPortfolio() {
 
+    // "see more" button states
     const [seeMoreZinnia, setSeeMoreZinnia] = useState(false)
     function seeMoreZinniaFunction() {
         setSeeMoreZinnia(!seeMoreZinnia)
@@ -40,6 +41,7 @@ function ArtPortfolio() {
         setSeeMoreSerprise(!seeMoreSerprise)
     }
 
+    //slider settings
       var settings = {
         dots: true,
         infinite: true,

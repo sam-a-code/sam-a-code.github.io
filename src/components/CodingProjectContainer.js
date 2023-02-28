@@ -1,3 +1,5 @@
+//not currently in use 
+
 import CodingProjectCard from "./CodingProjectCard";
 import React, {useState, useEffect} from "react";
 

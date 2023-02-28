@@ -1,3 +1,5 @@
+//not currently in use 
+
 function CodingProjectCard({title, oneLiner, url, demo, githubUrl, githubUrl2, createdDate, skills, description, commentary, image}) {
 
     const alphaSkills = skills.sort()

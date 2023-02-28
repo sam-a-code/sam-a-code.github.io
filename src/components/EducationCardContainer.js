@@ -3,7 +3,7 @@ import React, {useState, useEffect} from "react";
 
 
 function EducationCardContainer() {
-    // add back in with backend
+    // Add back in when update backend
     // const [education, setEducation] = useState([])
 
     // useEffect(() => {

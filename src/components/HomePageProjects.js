@@ -8,10 +8,12 @@ import Slider from "react-slick";
 
 function HomePageProjects() {
 
+    //coding portfolio button function
     function goToProjects() {
         window.location.href = '/coding-portfolio'
     }
 
+    //"see more" button staets for project cards
     const [seeMore1, setSeeMore1] = useState(false)
     function seeMoreFunction1() {
         setSeeMore1(!seeMore1)
@@ -33,6 +35,7 @@ function HomePageProjects() {
         setSeeMore5(!seeMore5)
     }
 
+    //slider settings 
     var settings = {
         dots: true,
         infinite: true,

@@ -1,3 +1,4 @@
+//not currently in use 
 function JobCard({title, company, location, url, startDate, endDate, description, image}) {
 
     const descriptionList =

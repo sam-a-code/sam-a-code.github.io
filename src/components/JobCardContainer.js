@@ -3,6 +3,8 @@ import React, {useState, useEffect} from "react";
 
 
 function JobCardContainer() {
+
+    //add back in when update backend
     // const [jobs, setJobs] = useState([])
 
     // useEffect(() => {
@@ -26,6 +28,7 @@ function JobCardContainer() {
     //         />
     //     ) })
 
+    // "see more" button states for job details
     const [viewStudio, setViewStudio] = useState(false)
     function seeMoreStudio() {
         setViewStudio(!viewStudio)
@@ -95,21 +98,6 @@ function JobCardContainer() {
                         </ul>
                     : null }
                 </div>
-                {/* <div className="job-card-child">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png"/>
-                    <h3>Events Specialist (Data Analyst)</h3>
-                    <a href="https://youtube.com" target="_blank" className="card-child-link-text">YouTube</a>
-                    <h4>Los Angeles</h4>
-                    <h5>May 2016 - April 2019</h5>
-                    { !viewYT2 ? <button onClick={seeMoreYT2}>Read more about my responsibilities at this job</button> : <button onClick={seeMoreYT2}>Close</button>}
-                    {viewYT2 ?
-                        <ul className="project-list">
-                            <li>Executed multiple processes and workflows for approx. 10 - 15 events per month at YouTube Space LA.</li>
-                            <li>Trained team on internal tools and processes, product updates, and security procedures to protect attendee data.</li>
-                            <li>Analyzed data, maintained data integrity, led data clean-up initiatives, and leveraged analytic insights to improve events.</li>
-                        </ul>
-                    : null }
-                </div> */}
                 <div className="job-card-child">
                     <img src="https://www.theheartseries.com/wp-content/uploads/2016/05/Screen-Shot-2016-05-12-at-2.14.47-PM.png" alt="the heart series logo"/>
                     <h3>Program Manager</h3>
@@ -131,7 +119,7 @@ function JobCardContainer() {
         </div>
 
 
-        {/* add back in when set up backend */}
+        {/* add back in when update backend */}
         {/* <div>
             <h1 className="section-header">Work History</h1>
             <ul className="card-parent">
