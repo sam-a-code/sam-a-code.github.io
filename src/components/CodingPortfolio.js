@@ -29,7 +29,7 @@ function CodingPortfolio() {
                     <h3>Groovehound</h3>
                     <h4>An app to track previous concert attendance and find upcoming concerts</h4>
                     <div><iframe src="https://www.loom.com/embed/b3036ee331a343f086f02f50b42d3347" target="_blank" className="loom-demo">Watch the demo</iframe><br></br></div>
-                    <a href="https://github.com/sam-a-code/concert-tracker" target="_blank" className="card-child-link-text">Github link</a>
+                    <a href="https://github.com/sam-a-code/groovehound" target="_blank" className="card-child-link-text">Github link</a>
                     <ul className="project-list">
                         <li>Implemented backend API with Ruby on Rails, using ActiveRecord and MVC framework to set up relationships.</li>
                         <li>Created login functionality with authentication and authorization.</li>
@@ -44,9 +44,9 @@ function CodingPortfolio() {
                     <h3>Tutoring Scheduler</h3>
                     <h4>Created an app for students to schedule time with tutors using React and Ruby.</h4>
                     <div><iframe src="https://www.loom.com/embed/6355b4193828459caa35f03535096ef4" target="_blank" className="loom-demo">Watch the demo</iframe><br></br></div>
-                    <a href="https://github.com/sam-a-code/phase-3-tutor-appointments-frontend" target="_blank" className="card-child-link-text">Frontend Github link</a>
+                    <a href="https://github.com/sam-a-code/tutoring-scheduler-frontend" target="_blank" className="card-child-link-text">Frontend Github link</a>
                     <br></br>
-                    <a href="https://github.com/sam-a-code/phase-3-tutor-appointments-backend" target="_blank" className="card-child-link-text">Backend Github link</a>
+                    <a href="https://github.com/sam-a-code/tutoring-scheduler-backend" target="_blank" className="card-child-link-text">Backend Github link</a>
                     <ul className="project-list">
                         <li>Implemented CRUD functionality on appointment scheduling and creation.</li>
                         <li>Added styling to support a strong visual identity – used CSS and an imported font to make app look like a handwritten notebook page.</li>
@@ -60,7 +60,7 @@ function CodingPortfolio() {
                     <img src="https://i.imgur.com/4xDejlO.png" alt="a screenshot of the homepage of Sam's book deserts app"/>
                     <h3>Book Deserts</h3>
                     <h4>A resource for sharing information about book deserts and organizations that are working to change them.</h4>
-                    <a href="https://github.com/sam-a-code/book-desert-project-II" target="_blank" className="card-child-link-text">Github link</a>
+                    <a href="https://github.com/sam-a-code/book-deserts" target="_blank" className="card-child-link-text">Github link</a>
                     <ul className="project-list">
                         <li>Built project with React.js, used CSS for styling, and implemented NavLink, ensuring site was compelling and easy to navigate.</li>
                         <li>Created a RESTful API for the backend, organizing book and resource information so it was easily accessible.</li>
@@ -73,7 +73,7 @@ function CodingPortfolio() {
                     <img src="https://i.imgur.com/dtYFFGo.png" alt="a screenshot of the homepage of Sam's farmers market seasonal recipes app"/>
                     <h3>Farmers Market Recipe Finder</h3>
                     <h4>A resource for finding recipes inspired by seasonal items from the farmers market.</h4>
-                    <a href="https://github.com/sam-a-code/farmers-market-recipe-finder" target="_blank" className="card-child-link-text">Github link</a>
+                    <a href="https://github.com/sam-a-code/seasonal-recipes" target="_blank" className="card-child-link-text">Github link</a>
                     <ul className="project-list">
                         <li>Used onClick to allow users to view seasonal item inspiration and to trigger the API call.</li>
                         <li>Implemented CSS styling to make the site feel inviting, fun, and easy to use.</li>
