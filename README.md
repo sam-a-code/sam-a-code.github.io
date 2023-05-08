@@ -17,5 +17,3 @@ When you make changes the page will reload automatically. You may also see lint 
 
 ## 🤙 Contact me
 If you'd like to connect (or hire me!), please reach out on [LinkedIn](https://www.linkedin.com/in/samanthajavery/).
-
-test
